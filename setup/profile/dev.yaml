@@ -1,0 +1,9 @@
+profile: dev
+email: marnik.bercx@epfl.ch
+first_name: Guiseppe
+last_name: Verdi
+institution: LaScala
+db_name: w2k
+db_username: aiida
+db_password: database
+repository: /home/aiida/project/w2k/repository/dev
