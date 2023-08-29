@@ -11,10 +11,22 @@ The image can be built with:
 docker build -t wien2k-ubuntu:latest .
 ```
 
-Afterwards, you can run the image using:
+Afterwards, you can run in the background the image using:
 
 ```
-docker run -d wien2k-ubuntu
+docker run -itd wien2k-ubuntu /bin/bash
+```
+
+Once the container is running, you can connect to it via:
+
+```
+docker exec -it `<CONTAINER_ID>` /bin/bash 
+```
+
+Where `<CONTAINER_ID>` will be returned by the `docker run` command, or can be obtained from:
+
+```
+docker container ls
 ```
 
 ## WIEN2`k` compilation instructions
@@ -57,6 +69,8 @@ Inside the running container, go to the `/home/aiida/src/WIEN2k` directory and
     ./expand_lapw
     ```
     Specify `y` in the prompt
+
+### Compiling WIEN2k
 
 You can now start the compilation process of WIEN2k.
 Run `./siteconfig_lapw` to get started!
@@ -359,6 +373,20 @@ Type `y` and press enter.
 ```
   Do you know/need a command to bind your jobs to specific nodes?
   (like taskset -c). Enter N / your_specific_command:
+```
+
+Type `N` and press enter.
+
+```
+   ***************************************************************************
+   Do you have MPI, ScaLAPACK, ELPA, or MPI-parallel FFTW installed and intend
+   to run finegrained parallel?
+
+   This is useful only for BIG cases (50 atoms and more / unit cell)
+   and your HARDWARE has at least 16 cores (or is a cluster with Infiniband)
+   You need to KNOW details about your installed MPI, ELPA, and FFTW )
+
+   (y/N)
 ```
 
 Type `N` and press enter.
