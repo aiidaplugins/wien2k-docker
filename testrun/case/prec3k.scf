@@ -1,0 +1,7 @@
+
+:LABEL1: Calculations in /home/aiida/project/w2k/workdir/48/7f/440a-cccb-4630-9673-9b0668f9174b/case
+:LABEL2: on e53f0ce29af9 at Wed Aug 30 11:44:32 UTC 2023
+:LABEL3: using WIEN2k_23.2 (Release 9/3/2022) in /home/aiida/src/WIEN2k
+
+:LABEL4: using the command: run_lapw -i 100 -cc 0.000001 -ec 0.000001
+

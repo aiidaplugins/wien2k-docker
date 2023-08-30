@@ -1,0 +1,14 @@
+
+Calculating case in /home/aiida/project/w2k/workdir/48/7f/440a-cccb-4630-9673-9b0668f9174b/case
+on e53f0ce29af9 with PID 900
+using WIEN2k_23.2 (Release 9/3/2022) in /home/aiida/src/WIEN2k
+
+
+    start 	(Wed Aug 30 11:44:29 UTC 2023) with lapw0 (100/99 to go)
+
+    cycle 1 	(Wed Aug 30 11:44:29 UTC 2023) 	(100/99 to go)
+
+>   lapw0      	(11:44:29) 0.128u 2.219s 0:02.46 94.7%	0+0k 3600+144io 20pf+0w
+error: command   /home/aiida/src/WIEN2k/lapw0 lapw0.def   failed
+
+>   stop error
