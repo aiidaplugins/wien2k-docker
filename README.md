@@ -58,6 +58,9 @@ docker cp  $DOCKERID:/home/aiida/testrun .
 
 The `stderr` of the run can be found in `testrun/_scheduler-stderr.txt`, the `stdout` in `testrun/case/run123_lapw.log`.
 
+These commands can also be run using `make test`.
+Use `make clean` to remove the generated `build.log` and `testrun`.
+
 ### Manual compilation (legacy)
 
 #### Copy `WIEN2k` into the Docker container

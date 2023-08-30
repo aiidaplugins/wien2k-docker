@@ -41,7 +41,7 @@ RUN apt-get update && apt-get install -y \
     rabbitmq-server && \
     rm -rf /var/lib/apt/lists/*
 
-# Create the `aiida` user and switch to it
+# Create the `aiida` user; make him a sudoer that can execute sudo commands without a password
 RUN useradd -ms /bin/bash aiida && \
     echo "aiida:aiida" | chpasswd && \
     adduser aiida sudo && \
@@ -49,8 +49,6 @@ RUN useradd -ms /bin/bash aiida && \
     echo 'source /usr/share/bash-completion/completions/git' >> /home/aiida/.bashrc
 
 USER aiida
-
-RUN touch /home/aiida/.cshrc 
 
 # Custom compilation of FFTW
 WORKDIR /home/aiida/src
