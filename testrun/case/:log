@@ -1,0 +1,19 @@
+Wed Aug 30 16:16:29 UTC 2023> (x) sgroup
+>   (init) options: -b -prec 2 -numk -1 0.0317506 -fermits 0.0045 -nokshift -red 3
+Wed Aug 30 16:16:29 UTC 2023> (x_lapw) nn -f case
+Wed Aug 30 16:16:30 UTC 2023> (x) nn
+Wed Aug 30 16:16:30 UTC 2023> (x) sgroup
+Wed Aug 30 16:16:30 UTC 2023> (x) symmetry
+Wed Aug 30 16:16:30 UTC 2023> (x) lstart -d -hdlo
+Wed Aug 30 16:16:30 UTC 2023> (x_lapw) kgen -d
+Wed Aug 30 16:16:30 UTC 2023> (x) dstart -p
+>   (init) options: -b -nodstart -prec 3 -numk -1 0.0317506 -fermits 0.0045 -nokshift
+Wed Aug 30 16:16:30 UTC 2023> (x) nn
+Wed Aug 30 16:16:30 UTC 2023> (x) sgroup
+Wed Aug 30 16:16:30 UTC 2023> (x) symmetry
+Wed Aug 30 16:16:31 UTC 2023> (x) lstart -d -hdlo
+Wed Aug 30 16:16:31 UTC 2023> (x_lapw) kgen -d
+Wed Aug 30 16:16:31 UTC 2023> (x) dstart -p -super
+>   (run_lapw) options: -i 100 -cc 0.000001 -ec 0.000001
+Wed Aug 30 16:16:31 UTC 2023> (x) kgen
+>   (run_lapw) options: -i 100 -cc 0.000001 -ec 0.000001

@@ -1,4 +1,6 @@
 #!/bin/bash
+source /home/aiida/bashrc_noninteractive.sh
+
 sudo service postgresql start
 
 psql -l 2>/dev/null || {
@@ -33,12 +35,6 @@ verdi computer show localhost 2>/dev/null || {
 verdi code show run123_lapw 2>/dev/null || {
     verdi code setup -n --config /home/aiida/project/w2k/setup/code/run123_lapw.yaml
 }
-
-# Add the required environment variable for WIEN2k
-export SCRATCH=/home/aiida/scratch
-if [ "$WIENROOT" = "" ]; then export WIENROOT=/home/aiida/src/WIEN2k; fi
-export STRUCTEDIT_PATH=$WIENROOT/SRC_structeditor/bin
-export PATH=$WIENROOT:$STRUCTEDIT_PATH:$WIENROOT/SRC_IRelast/script-elastic:$PATH:.
 
 ulimit -s unlimited
 alias octave="octave -p $OCTAVE_PATH"

@@ -1,0 +1,8 @@
+WFFIL  EF= 0.5000       (WFFIL, WFPRI, ENFIL, SUPWF)
+ 10.00     10   8   ELPA pxq BL 64 (R-MT*K-MAX,MAX L IN WF,V-NMT,LIB)
+  0.30    4  0      (GLOBAL E-PARAMETER WITH n OTHER CHOICES, global APW/LAPW)
+ 0    0.30     0.0000 CONT 1
+ 0    0.30     0.0000 CONT 2
+ 1    0.30     0.0000 CONT 1
+ 1    0.30     0.0000 CONT 2
+K-VECTORS FROM UNIT:4   -9.0       1.5    10   emin / de (emax=Ef+de) / nband

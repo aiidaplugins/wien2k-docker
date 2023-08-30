@@ -1,0 +1,7 @@
+
+Calculating case in /home/aiida/project/w2k/workdir/5d/c2/28ab-c82c-4651-ab9f-dcb1922aa5eb/case
+on 6a2bcad5168e with PID 954
+using WIEN2k_23.2 (Release 9/3/2022) in /home/aiida/src/WIEN2k
+no case.clmsum(_old) file found, which is necessary for lapw0 !
+
+>   stop error

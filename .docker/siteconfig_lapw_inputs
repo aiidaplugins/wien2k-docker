@@ -13,7 +13,7 @@ lib
 fftw3
 Y
 R
-/usr/lib/aarch64-linux-gnu/libopenblas64.so.0 -lpthread
+-L/home/aiida/src/OpenBLAS-0.3.23 -lopenblas -lpthread
 S
 
 y
