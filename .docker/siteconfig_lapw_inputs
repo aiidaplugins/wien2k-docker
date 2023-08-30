@@ -1,0 +1,23 @@
+c
+
+LG
+
+gfortran
+gcc
+
+
+N
+n
+/home/aiida/src/fftw-3.3.10
+lib
+fftw3
+Y
+R
+/usr/lib/aarch64-linux-gnu/libopenblas64.so.0 -lpthread
+S
+
+y
+N
+N
+Q
+A

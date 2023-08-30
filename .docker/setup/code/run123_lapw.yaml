@@ -5,5 +5,5 @@ on_computer: true
 remote_abs_path: "/home/aiida/src/WIEN2k/run123_lapw"
 computer: "localhost"
 prepend_text: |
-  mkdir case
+  export WIENROOT=/home/aiida/src/WIEN2k
   cd case

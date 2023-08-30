@@ -5,16 +5,27 @@ Additionally, it sets up an AiiDA environment that installs the WIEN2k plugin an
 
 ## Usage
 
+### REQUIRED: WIEN2`k` source code
+
+Since WIEN2k is not open source, you must first obtain the source code via a valid license, see:
+
+http://susi.theochem.tuwien.ac.at/order/index.html
+
+Once you have the license, download the `WIEN2k_23.2.tar` source code from the WIEN2k website.
+
+> Note: The automated compilation of WIEN2k in this docker build _expects_ the `WIEN2k_23.2.tar` to be in the root directory of this repository.
+  It will not work otherwise, or for other versions of WIEN2k.
+
 The image can be built with:
 
 ```
-docker build -t wien2k-ubuntu:latest .
+docker build -t aiida-wien2k .
 ```
 
 Afterwards, you can run in the background the image using:
 
 ```
-docker run -itd wien2k-ubuntu /bin/bash
+docker run -itd aiida-wien2k /bin/bash
 ```
 
 Once the container is running, you can connect to it via:
@@ -29,15 +40,27 @@ Where `<CONTAINER_ID>` will be returned by the `docker run` command, or can be o
 docker container ls
 ```
 
-## WIEN2`k` compilation instructions
+### Temporary notes on testing
 
-Since WIEN2k is not open source, you must first obtain the source code via a valid license, see:
+In the current setup the Docker container will compile WIEN2k, install the common workflows and do a single testrun of the AiiDA-wien2k plugin using the common relax work chain.
+The following command will build and run the container:
 
-http://susi.theochem.tuwien.ac.at/order/index.html
+```
+docker build -t aiida-wien2k . 2>&1 | tee build.log ; DOCKERID=$(docker run -d aiida-wien2k /bin/bash); docker logs -f $DOCKERID
+```
 
-Once you have the license, download the source code from the WIEN2k website.
+The build logs will be in `build.log`, where you can potentially identify issues with the compilation of WIEN2k.
+Once it's complete you can copy the contents of the test run using:
 
-### Copy `WIEN2k` into the Docker container
+```
+docker cp  $DOCKERID:/home/aiida/testrun .
+```
+
+The `stderr` of the run can be found in `testrun/_scheduler-stderr.txt`, the `stdout` in `testrun/case/run123_lapw.log`.
+
+### Manual compilation (legacy)
+
+#### Copy `WIEN2k` into the Docker container
 
 The following instructions will assume you have obtained the source for WIEN2k v23.2, gathered in the `WIEN2k_23.2.tar` tarball.
 First, copy the tarball containing the WIEN2k source code in the container:
@@ -70,7 +93,7 @@ Inside the running container, go to the `/home/aiida/src/WIEN2k` directory and
     ```
     Specify `y` in the prompt
 
-### Compiling WIEN2k
+#### Compiling WIEN2k
 
 You can now start the compilation process of WIEN2k.
 Run `./siteconfig_lapw` to get started!
@@ -573,8 +596,6 @@ How many cores do you want to use by default (4):1
 As shown above, I selected `1` core and then `Y`.
 
 ```
-
-
 !!!  The following lines will be added to your .bashrc file if you continue !!!
      A copy of your current .bashrc will be saved under  .bashrc.savelapw !
 
@@ -638,9 +659,3 @@ Type `N` and press enter.
 ```
 
 And we're done!
-
-## TODO: Common workflows instructions
-
-```
-aiida-common-workflows launch relax -r none -S Al -p moderate wien2k
-```
