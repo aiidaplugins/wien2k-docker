@@ -1,5 +1,5 @@
 #!/bin/bash
 
-echo '🚀 Running WIEN2k test'
-cd /home/aiida/testrun/case
+echo '🚀 Running WIEN2k manual test'
+cd /home/aiida/manual_run/case
 /home/aiida/src/WIEN2k/run123_lapw -i 100 -cc 0.01 -ec 0.01 -red 3 -numk 0 2 2 2 -noprec 0 -nokshift | tee run123_lapw.log 2>stderr.log
