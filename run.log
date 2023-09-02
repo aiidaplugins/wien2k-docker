@@ -1,0 +1,449 @@
+initopt: -nokshift
+runopt:  
+red:  
+numk2 not set
+deltak not set
+0.001u 0.002s 0:00.00 0.0%	0+0k 0+8io 0pf+0w
+sgroup completed OK
+moving case.struct_sgroup -> case.struct
+ initialize for RMT settings
+ next is setrmt 
+ next is nn 
+ specify nn-bondlength factor: (usually=2) [and optionally dlimit, dstmax (about 1.d-5, 20)]
+ dfac,DSTMAX:   2.0000000000000000        20.000000000000000     
+ iix,iiy,iiz           5           5           5   51.673530000000000        51.673530000000000        51.673530000000000     
+ NAMED ATOM: Si1       Z changed to IATNR+1000 to determine equivalency
+
+    ATOM  1  Si1        ATOM  1  Si1       
+ RMT(  1)=2.16000 AND RMT(  1)=2.16000
+ SUMS TO 4.32000  LT.  NN-DIST= 4.47506
+0.000u 0.002s 0:00.00 0.0%	0+0k 0+32io 0pf+0w
+ next is sgroup 
+>   sgroup 	(17:08:30) 0.000u 0.000s 0:00.00 0.0%	0+0k 0+8io 0pf+0w
+  Names of point group: -43m  -43m    Td
+Number and name of space group: 227 (F d -3 m) [origin choice 2]
+ next is symmetry 
+>   symmetry 	(17:08:30)  SPACE GROUP CONTAINS INVERSION
+0.002u 0.000s 0:00.00 0.0%	0+0k 0+80io 0pf+0w
+ next is lstart 
+ 1 Atoms found:  with labels Si1  
+generate atomic configuration for atom 1 : Si1
+  SELECT XCPOT:
+  recommended: PBE    [(13) GGA of Perdew-Burke-Ernzerhof 96]
+               LDA    [( 5)]
+               WC     [(11)  GGA of Wu-Cohen 2006]
+               PBESOL [(19) GGA of Perdew etal. 2008]
+  SELECT ENERGY to separate core and valence states:
+  recommended: -6.0 Ry (check how much core charge leaks out of MT-sphere)
+  ALTERNATIVELY: specify charge localization (between 0.97 and 1.0) to select core state
+2.16 14
+ set RKmax = 9.0 
+ set LVNS = 6 
+ set GMAX = 20.0 
+ set IFFTfac = 3.0 
+>   inputfiles prepared	(17:08:30)  
+ inputfiles prepared 
+ next is kgen 
+NUMK: 1000
+basic k-mesh: 11, 11, 11 = 1331,  kfactor = 10
+  NUMBER OF K-POINTS IN WHOLE CELL: (0 for 3 divisions of K, -1 for delta-K)
+ length of reciprocal lattice vectors (bohr^-1):   1.053   1.053   1.053
+         364  k-points generated, ndiv=          23          23          23
+ delta-K (bohr^-1):     0.0458    0.0458    0.0458
+ next is dstart 
+>   dstart   -p  > & .mist	(17:08:30) running dstart in single mode
+STOP DSTART ENDS
+0.184u 0.005s 0:00.19 94.7%	0+0k 0+440io 0pf+0w
+
+-----> new case.in0 generated
+  init_lapw finished ok  
+ initialize with -prec 1
+ next is setrmt 
+ next is nn 
+ specify nn-bondlength factor: (usually=2) [and optionally dlimit, dstmax (about 1.d-5, 20)]
+ dfac,DSTMAX:   2.0000000000000000        20.000000000000000     
+ iix,iiy,iiz           5           5           5   51.673530000000000        51.673530000000000        51.673530000000000     
+ NAMED ATOM: Si1       Z changed to IATNR+1000 to determine equivalency
+
+    ATOM  1  Si1        ATOM  1  Si1       
+ RMT(  1)=2.16000 AND RMT(  1)=2.16000
+ SUMS TO 4.32000  LT.  NN-DIST= 4.47506
+0.000u 0.000s 0:00.00 0.0%	0+0k 0+8io 0pf+0w
+ next is sgroup 
+>   sgroup 	(17:08:30) 0.001u 0.000s 0:00.00 0.0%	0+0k 0+8io 0pf+0w
+  Names of point group: -43m  -43m    Td
+Number and name of space group: 227 (F d -3 m) [origin choice 2]
+ next is symmetry 
+>   symmetry 	(17:08:30)  SPACE GROUP CONTAINS INVERSION
+0.001u 0.001s 0:00.00 0.0%	0+0k 0+64io 0pf+0w
+ next is lstart 
+  SELECT XCPOT:
+  recommended: PBE    [(13) GGA of Perdew-Burke-Ernzerhof 96]
+               LDA    [( 5)]
+               WC     [(11)  GGA of Wu-Cohen 2006]
+               PBESOL [(19) GGA of Perdew etal. 2008]
+  SELECT ENERGY to separate core and valence states:
+  recommended: -6.0 Ry (check how much core charge leaks out of MT-sphere)
+  ALTERNATIVELY: specify charge localization (between 0.97 and 1.0) to select core state
+2.16 14
+ set RKmax = 6.5 
+ set LVNS = 6 
+ set GMAX = 16.0 
+ set IFFTfac = 2.0 
+>   inputfiles prepared	(17:08:31)  
+ inputfiles prepared 
+ next is kgen 
+NUMK: 1000
+basic k-mesh: 11, 11, 11 = 1331,  kfactor = 1
+  NUMBER OF K-POINTS IN WHOLE CELL: (0 for 3 divisions of K, -1 for delta-K)
+ length of reciprocal lattice vectors (bohr^-1):   1.053   1.053   1.053
+          56  k-points generated, ndiv=          11          11          11
+ delta-K (bohr^-1):     0.0957    0.0957    0.0957
+ next is dstart 
+>   dstart   -p -super > & .mist	(17:08:31) running dstart in single mode
+STOP DSTART ENDS
+0.140u 0.007s 0:00.14 100.0%	0+0k 0+272io 0pf+0w
+
+-----> new case.in0 generated
+  init_lapw finished ok  
+
+>   stop error
+New version of save_lapw selected
+
+Starting save:
+   case.struct -> ./prec1.struct
+   case.clmsum -> ./prec1.clmsum
+   case.clmup -> ./prec1.clmup
+   case.clmdn -> ./prec1.clmdn
+   case.dmatup -> ./prec1.dmatup
+   case.dmatdn -> ./prec1.dmatdn
+   case.dmatud -> ./prec1.dmatud
+   case.eeceup -> ./prec1.eeceup
+   case.eecedn -> ./prec1.eecedn
+   case.vorbup -> ./prec1.vorbup
+   case.vorbdn -> ./prec1.vorbdn
+   case.vorbud -> ./prec1.vorbud
+   case.vrespsum -> ./prec1.vrespsum
+   case.vrespup -> ./prec1.vrespup
+   case.vrespdn -> ./prec1.vrespdn
+   case.kgen -> ./prec1.kgen
+   case.kgen_ibz -> ./prec1.kgen_ibz
+   case.kgen_ribz -> ./prec1.kgen_ribz
+   case.klist -> ./prec1.klist
+   case.klist_fbz -> ./prec1.klist_fbz
+   case.klist_ibz -> ./prec1.klist_ibz
+   case.klist_ibz_all -> ./prec1.klist_ibz_all
+   case.klist_rfbz -> ./prec1.klist_rfbz
+   case.klist_ribz -> ./prec1.klist_ribz
+   case.ksym -> ./prec1.ksym
+   case.outputkgenhf -> ./prec1.outputkgenhf
+   case.scf -> ./prec1.scf
+   case.scf2 -> ./prec1.scf2
+   case.scf2up -> ./prec1.scf2up
+   case.scf2dn -> ./prec1.scf2dn
+   case.in0 -> ./prec1.in0
+   case.in0_st -> ./prec1.in0_st
+   case.in0_std -> ./prec1.in0_std
+   case.in0abp -> ./prec1.in0abp
+   case.in1 -> ./prec1.in1
+   case.in1_st -> ./prec1.in1_st
+   case.in2 -> ./prec1.in2
+   case.in2_ls -> ./prec1.in2_ls
+   case.in2_st -> ./prec1.in2_st
+   case.in2_sy -> ./prec1.in2_sy
+   case.inc -> ./prec1.inc
+   case.inc_st -> ./prec1.inc_st
+   case.indstart -> ./prec1.indstart
+   case.inm -> ./prec1.inm
+   case.inm_restart_st -> ./prec1.inm_restart_st
+   case.inm_st -> ./prec1.inm_st
+   case.inq -> ./prec1.inq
+   case.inq_st -> ./prec1.inq_st
+   case.inst -> ./prec1.inst
+   case.nmat_only -> ./prec1.nmat_only
+   case.vsp -> ./prec1.vsp
+   case.vspup -> ./prec1.vspup
+   case.vspdn -> ./prec1.vspdn
+   case.vspmgga -> ./prec1.vspmgga
+   case.vspmggaup -> ./prec1.vspmggaup
+   case.vspmggadn -> ./prec1.vspmggadn
+   case.vns -> ./prec1.vns
+   case.vnsup -> ./prec1.vnsup
+   case.vnsdn -> ./prec1.vnsdn
+   case.vtau -> ./prec1.vtau
+   case.vtauup -> ./prec1.vtauup
+   case.vtaudn -> ./prec1.vtaudn
+   case.r2v -> ./prec1.r2v
+   case.r2vdn -> ./prec1.r2vdn
+   case.r2v2 -> ./prec1.r2v2
+   case.r2v2dn -> ./prec1.r2v2dn
+   case.r2v_nonloc -> ./prec1.r2v_nonloc
+   case.r2v_nonlocdn -> ./prec1.r2v_nonlocdn
+   case.r2v_half -> ./prec1.r2v_half
+   case.r2v_halfdn -> ./prec1.r2v_halfdn
+   case.tausum -> ./prec1.tausum
+   case.tauup -> ./prec1.tauup
+   case.taudn -> ./prec1.taudn
+
+broyden files deleted, clm*, dmat*, vorb*, vresp*, tau*, eece*, vsp*, vns*, scf, struct and input files saved under ./prec1
+
+ initialize with -prec 2
+ next is setrmt 
+ next is nn 
+ specify nn-bondlength factor: (usually=2) [and optionally dlimit, dstmax (about 1.d-5, 20)]
+ dfac,DSTMAX:   2.0000000000000000        20.000000000000000     
+ iix,iiy,iiz           5           5           5   51.673530000000000        51.673530000000000        51.673530000000000     
+ NAMED ATOM: Si1       Z changed to IATNR+1000 to determine equivalency
+
+    ATOM  1  Si1        ATOM  1  Si1       
+ RMT(  1)=2.16000 AND RMT(  1)=2.16000
+ SUMS TO 4.32000  LT.  NN-DIST= 4.47506
+0.000u 0.001s 0:00.00 0.0%	0+0k 0+8io 0pf+0w
+ next is sgroup 
+>   sgroup 	(17:08:33) 0.000u 0.001s 0:00.00 0.0%	0+0k 0+8io 0pf+0w
+  Names of point group: -43m  -43m    Td
+Number and name of space group: 227 (F d -3 m) [origin choice 2]
+ next is symmetry 
+>   symmetry 	(17:08:33)  SPACE GROUP CONTAINS INVERSION
+0.000u 0.001s 0:00.00 0.0%	0+0k 0+64io 0pf+0w
+ next is lstart 
+  SELECT XCPOT:
+  recommended: PBE    [(13) GGA of Perdew-Burke-Ernzerhof 96]
+               LDA    [( 5)]
+               WC     [(11)  GGA of Wu-Cohen 2006]
+               PBESOL [(19) GGA of Perdew etal. 2008]
+  SELECT ENERGY to separate core and valence states:
+  recommended: -6.0 Ry (check how much core charge leaks out of MT-sphere)
+  ALTERNATIVELY: specify charge localization (between 0.97 and 1.0) to select core state
+2.16 14
+ set RKmax = 9.0 
+ set LVNS = 6 
+ set GMAX = 20.0 
+ set IFFTfac = 3.0 
+>   inputfiles prepared	(17:08:33)  
+ inputfiles prepared 
+ next is kgen 
+NUMK: 1000
+basic k-mesh: 11, 11, 11 = 1331,  kfactor = 10
+  NUMBER OF K-POINTS IN WHOLE CELL: (0 for 3 divisions of K, -1 for delta-K)
+ length of reciprocal lattice vectors (bohr^-1):   1.053   1.053   1.053
+         364  k-points generated, ndiv=          23          23          23
+ delta-K (bohr^-1):     0.0458    0.0458    0.0458
+ next is dstart 
+>   dstart   -p -super > & .mist	(17:08:33) running dstart in single mode
+STOP DSTART ENDS
+0.197u 0.014s 0:00.21 95.2%	0+0k 0+336io 1pf+0w
+
+-----> new case.in0 generated
+  init_lapw finished ok  
+
+>   stop error
+New version of save_lapw selected
+
+Starting save:
+   case.struct -> ./prec2.struct
+   case.clmsum -> ./prec2.clmsum
+   case.clmup -> ./prec2.clmup
+   case.clmdn -> ./prec2.clmdn
+   case.dmatup -> ./prec2.dmatup
+   case.dmatdn -> ./prec2.dmatdn
+   case.dmatud -> ./prec2.dmatud
+   case.eeceup -> ./prec2.eeceup
+   case.eecedn -> ./prec2.eecedn
+   case.vorbup -> ./prec2.vorbup
+   case.vorbdn -> ./prec2.vorbdn
+   case.vorbud -> ./prec2.vorbud
+   case.vrespsum -> ./prec2.vrespsum
+   case.vrespup -> ./prec2.vrespup
+   case.vrespdn -> ./prec2.vrespdn
+   case.kgen -> ./prec2.kgen
+   case.kgen_ibz -> ./prec2.kgen_ibz
+   case.kgen_ribz -> ./prec2.kgen_ribz
+   case.klist -> ./prec2.klist
+   case.klist_fbz -> ./prec2.klist_fbz
+   case.klist_ibz -> ./prec2.klist_ibz
+   case.klist_ibz_all -> ./prec2.klist_ibz_all
+   case.klist_rfbz -> ./prec2.klist_rfbz
+   case.klist_ribz -> ./prec2.klist_ribz
+   case.ksym -> ./prec2.ksym
+   case.outputkgenhf -> ./prec2.outputkgenhf
+   case.scf -> ./prec2.scf
+   case.scf2 -> ./prec2.scf2
+   case.scf2up -> ./prec2.scf2up
+   case.scf2dn -> ./prec2.scf2dn
+   case.in0 -> ./prec2.in0
+   case.in0_st -> ./prec2.in0_st
+   case.in0_std -> ./prec2.in0_std
+   case.in0abp -> ./prec2.in0abp
+   case.in1 -> ./prec2.in1
+   case.in1_st -> ./prec2.in1_st
+   case.in2 -> ./prec2.in2
+   case.in2_ls -> ./prec2.in2_ls
+   case.in2_st -> ./prec2.in2_st
+   case.in2_sy -> ./prec2.in2_sy
+   case.inc -> ./prec2.inc
+   case.inc_st -> ./prec2.inc_st
+   case.indstart -> ./prec2.indstart
+   case.inm -> ./prec2.inm
+   case.inm_restart_st -> ./prec2.inm_restart_st
+   case.inm_st -> ./prec2.inm_st
+   case.inq -> ./prec2.inq
+   case.inq_st -> ./prec2.inq_st
+   case.inst -> ./prec2.inst
+   case.nmat_only -> ./prec2.nmat_only
+   case.vsp -> ./prec2.vsp
+   case.vspup -> ./prec2.vspup
+   case.vspdn -> ./prec2.vspdn
+   case.vspmgga -> ./prec2.vspmgga
+   case.vspmggaup -> ./prec2.vspmggaup
+   case.vspmggadn -> ./prec2.vspmggadn
+   case.vns -> ./prec2.vns
+   case.vnsup -> ./prec2.vnsup
+   case.vnsdn -> ./prec2.vnsdn
+   case.vtau -> ./prec2.vtau
+   case.vtauup -> ./prec2.vtauup
+   case.vtaudn -> ./prec2.vtaudn
+   case.r2v -> ./prec2.r2v
+   case.r2vdn -> ./prec2.r2vdn
+   case.r2v2 -> ./prec2.r2v2
+   case.r2v2dn -> ./prec2.r2v2dn
+   case.r2v_nonloc -> ./prec2.r2v_nonloc
+   case.r2v_nonlocdn -> ./prec2.r2v_nonlocdn
+   case.r2v_half -> ./prec2.r2v_half
+   case.r2v_halfdn -> ./prec2.r2v_halfdn
+   case.tausum -> ./prec2.tausum
+   case.tauup -> ./prec2.tauup
+   case.taudn -> ./prec2.taudn
+
+broyden files deleted, clm*, dmat*, vorb*, vresp*, tau*, eece*, vsp*, vns*, scf, struct and input files saved under ./prec2
+
+ initialize with -prec 3
+ next is setrmt 
+ next is nn 
+ specify nn-bondlength factor: (usually=2) [and optionally dlimit, dstmax (about 1.d-5, 20)]
+ dfac,DSTMAX:   2.0000000000000000        20.000000000000000     
+ iix,iiy,iiz           5           5           5   51.673530000000000        51.673530000000000        51.673530000000000     
+ NAMED ATOM: Si1       Z changed to IATNR+1000 to determine equivalency
+
+    ATOM  1  Si1        ATOM  1  Si1       
+ RMT(  1)=2.16000 AND RMT(  1)=2.16000
+ SUMS TO 4.32000  LT.  NN-DIST= 4.47506
+0.000u 0.002s 0:00.00 0.0%	0+0k 0+32io 0pf+0w
+ next is sgroup 
+>   sgroup 	(17:08:51) 0.000u 0.000s 0:00.00 0.0%	0+0k 0+8io 0pf+0w
+  Names of point group: -43m  -43m    Td
+Number and name of space group: 227 (F d -3 m) [origin choice 2]
+ next is symmetry 
+>   symmetry 	(17:08:51)  SPACE GROUP CONTAINS INVERSION
+0.001u 0.003s 0:00.00 0.0%	0+0k 0+80io 0pf+0w
+ next is lstart 
+  SELECT XCPOT:
+  recommended: PBE    [(13) GGA of Perdew-Burke-Ernzerhof 96]
+               LDA    [( 5)]
+               WC     [(11)  GGA of Wu-Cohen 2006]
+               PBESOL [(19) GGA of Perdew etal. 2008]
+  SELECT ENERGY to separate core and valence states:
+  recommended: -6.0 Ry (check how much core charge leaks out of MT-sphere)
+  ALTERNATIVELY: specify charge localization (between 0.97 and 1.0) to select core state
+2.16 14
+ set RKmax = 10.0 
+ set LVNS = 8 
+ set GMAX = 25.0 
+ set IFFTfac = 3.0 
+>   inputfiles prepared	(17:08:51)  
+ inputfiles prepared 
+ next is kgen 
+NUMK: 1000
+basic k-mesh: 11, 11, 11 = 1331,  kfactor = 30
+  NUMBER OF K-POINTS IN WHOLE CELL: (0 for 3 divisions of K, -1 for delta-K)
+ length of reciprocal lattice vectors (bohr^-1):   1.053   1.053   1.053
+        1059  k-points generated, ndiv=          34          34          34
+ delta-K (bohr^-1):     0.0310    0.0310    0.0310
+ next is dstart 
+>   dstart   -p -super > & .mist	(17:08:51) running dstart in single mode
+STOP DSTART ENDS
+0.435u 0.010s 0:00.44 100.0%	0+0k 0+432io 0pf+0w
+
+-----> new case.in0 generated
+  init_lapw finished ok  
+
+>   stop error
+New version of save_lapw selected
+
+Starting save:
+   case.struct -> ./prec3.struct
+   case.clmsum -> ./prec3.clmsum
+   case.clmup -> ./prec3.clmup
+   case.clmdn -> ./prec3.clmdn
+   case.dmatup -> ./prec3.dmatup
+   case.dmatdn -> ./prec3.dmatdn
+   case.dmatud -> ./prec3.dmatud
+   case.eeceup -> ./prec3.eeceup
+   case.eecedn -> ./prec3.eecedn
+   case.vorbup -> ./prec3.vorbup
+   case.vorbdn -> ./prec3.vorbdn
+   case.vorbud -> ./prec3.vorbud
+   case.vrespsum -> ./prec3.vrespsum
+   case.vrespup -> ./prec3.vrespup
+   case.vrespdn -> ./prec3.vrespdn
+   case.kgen -> ./prec3.kgen
+   case.kgen_ibz -> ./prec3.kgen_ibz
+   case.kgen_ribz -> ./prec3.kgen_ribz
+   case.klist -> ./prec3.klist
+   case.klist_fbz -> ./prec3.klist_fbz
+   case.klist_ibz -> ./prec3.klist_ibz
+   case.klist_ibz_all -> ./prec3.klist_ibz_all
+   case.klist_rfbz -> ./prec3.klist_rfbz
+   case.klist_ribz -> ./prec3.klist_ribz
+   case.ksym -> ./prec3.ksym
+   case.outputkgenhf -> ./prec3.outputkgenhf
+   case.scf -> ./prec3.scf
+   case.scf2 -> ./prec3.scf2
+   case.scf2up -> ./prec3.scf2up
+   case.scf2dn -> ./prec3.scf2dn
+   case.in0 -> ./prec3.in0
+   case.in0_st -> ./prec3.in0_st
+   case.in0_std -> ./prec3.in0_std
+   case.in0abp -> ./prec3.in0abp
+   case.in1 -> ./prec3.in1
+   case.in1_st -> ./prec3.in1_st
+   case.in2 -> ./prec3.in2
+   case.in2_ls -> ./prec3.in2_ls
+   case.in2_st -> ./prec3.in2_st
+   case.in2_sy -> ./prec3.in2_sy
+   case.inc -> ./prec3.inc
+   case.inc_st -> ./prec3.inc_st
+   case.indstart -> ./prec3.indstart
+   case.inm -> ./prec3.inm
+   case.inm_restart_st -> ./prec3.inm_restart_st
+   case.inm_st -> ./prec3.inm_st
+   case.inq -> ./prec3.inq
+   case.inq_st -> ./prec3.inq_st
+   case.inst -> ./prec3.inst
+   case.nmat_only -> ./prec3.nmat_only
+   case.vsp -> ./prec3.vsp
+   case.vspup -> ./prec3.vspup
+   case.vspdn -> ./prec3.vspdn
+   case.vspmgga -> ./prec3.vspmgga
+   case.vspmggaup -> ./prec3.vspmggaup
+   case.vspmggadn -> ./prec3.vspmggadn
+   case.vns -> ./prec3.vns
+   case.vnsup -> ./prec3.vnsup
+   case.vnsdn -> ./prec3.vnsdn
+   case.vtau -> ./prec3.vtau
+   case.vtauup -> ./prec3.vtauup
+   case.vtaudn -> ./prec3.vtaudn
+   case.r2v -> ./prec3.r2v
+   case.r2vdn -> ./prec3.r2vdn
+   case.r2v2 -> ./prec3.r2v2
+   case.r2v2dn -> ./prec3.r2v2dn
+   case.r2v_nonloc -> ./prec3.r2v_nonloc
+   case.r2v_nonlocdn -> ./prec3.r2v_nonlocdn
+   case.r2v_half -> ./prec3.r2v_half
+   case.r2v_halfdn -> ./prec3.r2v_halfdn
+   case.tausum -> ./prec3.tausum
+   case.tauup -> ./prec3.tauup
+   case.taudn -> ./prec3.taudn
+
+broyden files deleted, clm*, dmat*, vorb*, vresp*, tau*, eece*, vsp*, vns*, scf, struct and input files saved under ./prec3
+

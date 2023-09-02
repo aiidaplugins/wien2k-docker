@@ -1,0 +1,38 @@
+Sat Sep  2 17:08:30 UTC 2023> (x) sgroup
+>   (init) options: -b -prec 2 -nokshift
+Sat Sep  2 17:08:30 UTC 2023> (x) nn
+Sat Sep  2 17:08:30 UTC 2023> (x) sgroup
+Sat Sep  2 17:08:30 UTC 2023> (x) symmetry
+Sat Sep  2 17:08:30 UTC 2023> (x) lstart -d -hdlo
+Sat Sep  2 17:08:30 UTC 2023> (x_lapw) kgen -d
+Sat Sep  2 17:08:30 UTC 2023> (x) dstart -p
+>   (init) options: -b -nodstart -prec 1 -nokshift
+Sat Sep  2 17:08:30 UTC 2023> (x) nn
+Sat Sep  2 17:08:30 UTC 2023> (x) sgroup
+Sat Sep  2 17:08:30 UTC 2023> (x) symmetry
+Sat Sep  2 17:08:30 UTC 2023> (x) lstart -d
+Sat Sep  2 17:08:31 UTC 2023> (x_lapw) kgen -d
+Sat Sep  2 17:08:31 UTC 2023> (x) dstart -p -super
+>   (run_lapw) options: 
+Sat Sep  2 17:08:31 UTC 2023> (x) lapw0
+Sat Sep  2 17:08:33 UTC 2023> (x) lapw1
+>   (init) options: -b -nodstart -prec 2 -nokshift
+Sat Sep  2 17:08:33 UTC 2023> (x) nn
+Sat Sep  2 17:08:33 UTC 2023> (x) sgroup
+Sat Sep  2 17:08:33 UTC 2023> (x) symmetry
+Sat Sep  2 17:08:33 UTC 2023> (x) lstart -d -hdlo
+Sat Sep  2 17:08:33 UTC 2023> (x_lapw) kgen -d
+Sat Sep  2 17:08:33 UTC 2023> (x) dstart -p -super
+>   (run_lapw) options: 
+Sat Sep  2 17:08:34 UTC 2023> (x) lapw0
+Sat Sep  2 17:08:50 UTC 2023> (x) lapw1
+>   (init) options: -b -nodstart -prec 3 -nokshift
+Sat Sep  2 17:08:51 UTC 2023> (x) nn
+Sat Sep  2 17:08:51 UTC 2023> (x) sgroup
+Sat Sep  2 17:08:51 UTC 2023> (x) symmetry
+Sat Sep  2 17:08:51 UTC 2023> (x) lstart -d -hdlo
+Sat Sep  2 17:08:51 UTC 2023> (x_lapw) kgen -d
+Sat Sep  2 17:08:51 UTC 2023> (x) dstart -p -super
+>   (run_lapw) options: 
+Sat Sep  2 17:08:52 UTC 2023> (x) lapw0
+Sat Sep  2 17:09:16 UTC 2023> (x) lapw1

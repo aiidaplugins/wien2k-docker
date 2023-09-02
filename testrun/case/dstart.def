@@ -1,0 +1,10 @@
+ 5,'case.indstart','unknown','formatted',0
+ 6,'case.outputd','unknown','formatted',0
+13,'case.in0_std','unknown',    'formatted',0
+14,'case.in0','old',    'formatted',0
+15,'case.in2',   'old',    'formatted',0
+17,'case.in1',   'old',    'formatted',0
+16,'case.test',        'unknown','formatted',0
+20,'case.struct',      'old',    'formatted',0
+81,'case.rsp',    'old',    'formatted',0
+51,'new_super.clmsum',    'unknown','formatted',0

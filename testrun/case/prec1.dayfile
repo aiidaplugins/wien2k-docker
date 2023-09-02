@@ -1,0 +1,14 @@
+
+Calculating case in /home/aiida/testrun/case
+on b44268bc0242 with PID 553
+using WIEN2k_23.2 (Release 9/3/2022) in /home/aiida/src/WIEN2k
+
+
+    start 	(Sat Sep  2 17:08:31 UTC 2023) with lapw0 (40/99 to go)
+
+    cycle 1 	(Sat Sep  2 17:08:31 UTC 2023) 	(40/99 to go)
+
+>   lapw0      	(17:08:31) 1.523u 0.076s 0:01.60 99.3%	0+0k 0+504io 0pf+0w
+>   lapw1       	(17:08:33) 0.001u 0.010s 0:00.01 100.0%	0+0k 0+8io 0pf+0w
+
+>   stop error
