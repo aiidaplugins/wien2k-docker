@@ -54,6 +54,8 @@ RUN tar -xvf WIEN2k_23.2.tar \
     && ./siteconfig_lapw < siteconfig_lapw_inputs \
     && ./userconfig_lapw < userconfig_lapw_inputs 
 
+RUN mkdir /home/aiida/scratch
+
 WORKDIR /home/aiida
 
 COPY --chown=aiida:aiida .docker/bashrc_noninteractive.sh bashrc_noninteractive.sh
