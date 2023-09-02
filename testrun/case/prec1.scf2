@@ -1,0 +1,37 @@
+       Insulator, EF-inconsistency corrected
+:GAP (global)   :  0.047791 Ry =     0.650 eV (accurate value if proper k-mesh)
+         Bandranges (emin - emax) and occupancy:
+:BAN00001:   1   -0.480710   -0.180321  2.00000000
+:BAN00002:   2   -0.180321    0.391955  2.00000000
+:BAN00003:   3    0.181661    0.391955  2.00000000
+:BAN00004:   4    0.181661    0.391955  2.00000000
+:BAN00005:   5    0.439745    0.570931  0.00000000
+:BAN00006:   6    0.439745    0.628851  0.00000000
+:BAN00007:   7    0.570931    1.119413  0.00000000
+:BAN00008:   8    0.622479    1.119413  0.00000000
+:BAN00009:   9    0.951440    1.198695  0.00000000
+        Energy to separate low and high energystates: -999.00000
+
+
+:NOE  : NUMBER OF ELECTRONS          =    8.000
+
+:FER  : F E R M I - ENERGY(TETRAH.M.)=   0.3919548595
+:GMA  : POTENTIAL AND CHARGE CUT-OFF  16.00 Ry**.5
+
+:POS001: ATOM    1 X,Y,Z = 0.87500 0.37500 0.37500  MULT= 2  ZZ= 14.000  Si1       
+
+       LMMAX  6
+       LM=   0 0  4 0  4 4  6 0  6 4 -3 2
+
+:CHA001: TOTAL VALENCE CHARGE INSIDE SPHERE   1 =   2.2218    (RMT=  2.1600 )
+:PCS001: PARTIAL CHARGES SPHERE =  1 S,P,D,F,      D-EG,D-T2G 
+:QTL001: 0.7947 1.3318 0.0860 0.0077 0.0000 0.0000 0.0000 0.0067 0.0792 0.0000 0.0000 0.0000
+        Q-s-low E-s-low   Q-p-low E-p-low   Q-d-low E-d-low   Q-f-low E-f-low
+:EPL001:  0.0000 10.0000    0.0000 10.0000    0.0000 10.0000    0.0000 10.0000
+        Q-s-hi  E-s-hi    Q-p-hi  E-p-hi    Q-d-hi  E-d-hi    Q-f-hi  E-f-hi 
+:EPH001:  0.7947 -0.2406    1.3318  0.2041    0.0860  0.2321    0.0077  0.1196
+
+:CHA  : TOTAL VALENCE CHARGE INSIDE UNIT CELL =       8.000000
+
+:SUM  : SUM OF EIGENVALUES =           0.351982127
+

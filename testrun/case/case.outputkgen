@@ -1,0 +1,119 @@
+ ortho=  T
+  R1 =   0.000000  5.167353  5.167353
+  R2 =   5.167353  0.000000  5.167353
+  R3 =   5.167353  5.167353  0.000000
+  DEPENDENCE OF DIVISION OF TRANSLATION VECTORS IARB=  1  1  1
+    SYMMETRY MATRIX NR.  1   SYMMETRY MATRIX NR.  2   SYMMETRY MATRIX NR.  3   SYMMETRY MATRIX NR.  4
+        1    0    0              0    1   -1              0   -1    1             -1    0    0
+        0    1    0              1    0   -1              0   -1    0             -1    0    1
+        0    0    1              0    0   -1              1   -1    0             -1    1    0
+    SYMMETRY MATRIX NR.  5   SYMMETRY MATRIX NR.  6   SYMMETRY MATRIX NR.  7   SYMMETRY MATRIX NR.  8
+        0    1    0             -1    0    1              1    0   -1              0   -1    0
+        0    0    1             -1    1    0              0    0   -1              1   -1    0
+        1    0    0             -1    0    0              0    1   -1              0   -1    1
+    SYMMETRY MATRIX NR.  9   SYMMETRY MATRIX NR. 10   SYMMETRY MATRIX NR. 11   SYMMETRY MATRIX NR. 12
+        0    0    1              1   -1    0             -1    1    0              0    0   -1
+        1    0    0              0   -1    1             -1    0    0              0    1   -1
+        0    1    0              0   -1    0             -1    0    1              1    0   -1
+    SYMMETRY MATRIX NR. 13   SYMMETRY MATRIX NR. 14   SYMMETRY MATRIX NR. 15   SYMMETRY MATRIX NR. 16
+       -1    0    1              0   -1    0              0    1    0              1    0   -1
+        0   -1    1             -1    0    0              0    1   -1              1    0    0
+        0    0    1              0    0   -1             -1    1    0              1   -1    0
+    SYMMETRY MATRIX NR. 17   SYMMETRY MATRIX NR. 18   SYMMETRY MATRIX NR. 19   SYMMETRY MATRIX NR. 20
+        0   -1    1              1    0    0             -1    0    0              0    1   -1
+        0    0    1              1   -1    0              0    0   -1             -1    1    0
+       -1    0    1              1    0   -1              0   -1    0              0    1    0
+    SYMMETRY MATRIX NR. 21   SYMMETRY MATRIX NR. 22   SYMMETRY MATRIX NR. 23   SYMMETRY MATRIX NR. 24
+        0    0    1             -1    1    0              1   -1    0              0    0   -1
+       -1    0    1              0    1    0              1    0   -1              0   -1    0
+        0   -1    1              0    1   -1              1    0    0             -1    0    0
+    SYMMETRY MATRIX NR. 25   SYMMETRY MATRIX NR. 26   SYMMETRY MATRIX NR. 27   SYMMETRY MATRIX NR. 28
+       -1    0    0              0   -1    1              0    1   -1              1    0    0
+        0   -1    0             -1    0    1              0    1    0              1    0   -1
+        0    0   -1              0    0    1             -1    1    0              1   -1    0
+    SYMMETRY MATRIX NR. 29   SYMMETRY MATRIX NR. 30   SYMMETRY MATRIX NR. 31   SYMMETRY MATRIX NR. 32
+        0   -1    0              1    0   -1             -1    0    1              0    1    0
+        0    0   -1              1   -1    0              0    0    1             -1    1    0
+       -1    0    0              1    0    0              0   -1    1              0    1   -1
+    SYMMETRY MATRIX NR. 33   SYMMETRY MATRIX NR. 34   SYMMETRY MATRIX NR. 35   SYMMETRY MATRIX NR. 36
+        0    0   -1             -1    1    0              1   -1    0              0    0    1
+       -1    0    0              0    1   -1              1    0    0              0   -1    1
+        0   -1    0              0    1    0              1    0   -1             -1    0    1
+    SYMMETRY MATRIX NR. 37   SYMMETRY MATRIX NR. 38   SYMMETRY MATRIX NR. 39   SYMMETRY MATRIX NR. 40
+        1    0   -1              0    1    0              0   -1    0             -1    0    1
+        0    1   -1              1    0    0              0   -1    1             -1    0    0
+        0    0   -1              0    0    1              1   -1    0             -1    1    0
+    SYMMETRY MATRIX NR. 41   SYMMETRY MATRIX NR. 42   SYMMETRY MATRIX NR. 43   SYMMETRY MATRIX NR. 44
+        0    1   -1             -1    0    0              1    0    0              0   -1    1
+        0    0   -1             -1    1    0              0    0    1              1   -1    0
+        1    0   -1             -1    0    1              0    1    0              0   -1    0
+    SYMMETRY MATRIX NR. 45   SYMMETRY MATRIX NR. 46   SYMMETRY MATRIX NR. 47   SYMMETRY MATRIX NR. 48
+        0    0   -1              1   -1    0             -1    1    0              0    0    1
+        1    0   -1              0   -1    0             -1    0    1              0    1    0
+        0    1   -1              0   -1    1             -1    0    0              1    0    0
+    G1        G2        G3
+  -0.096761  0.096761  0.096761
+   0.096761 -0.096761  0.096761
+   0.096761  0.096761 -0.096761
+    G1        G2        G3
+  -0.607969  0.607969  0.607969
+   0.607969 -0.607969  0.607969
+   0.607969  0.607969 -0.607969
+  length of reciprocal lattice vectors (bohr^-1):  1.053034  1.053034  1.053034
+ SUBMESH SHIFT CONFLICTS WITH POINTGROUP
+ SYMMETRYMATRIX NR. :     2
+          0         1         0
+          1         0         0
+         -1        -1        -1
+
+  SUBMESH NOT SHIFTED; SHIFT:            0           0           0
+  NO. OF MESH POINTS IN THE BRILLOUIN ZONE=      8
+  DIVISION OF RECIPROCAL LATTICE VECTORS (INTERVALS)=    2    2    2
+  point    coordinates     relation
+      1      0   0   0       1   0.12500   0.12500
+      2      0   0   1       2   0.25000   0.25000
+      3      0   0   2       1   0.12500   0.25000
+      4      0   1   0       2   0.25000   0.50000
+      5      0   1   1       5   0.50000   0.50000
+      6      0   1   2       2   0.25000   0.75000
+      7      0   2   0       1   0.12500   0.37500
+      8      0   2   1       2   0.25000   1.00000
+      9      0   2   2       1   0.12500   0.50000
+     10      1   0   0       2   0.25000   1.25000
+     11      1   0   1       5   0.50000   1.00000
+     12      1   0   2       2   0.25000   1.50000
+     13      1   1   0       5   0.50000   1.50000
+     14      1   1   1       2   1.00000   2.50000
+     15      1   1   2       5   0.50000   2.00000
+     16      1   2   0       2   0.25000   2.75000
+     17      1   2   1       5   0.50000   2.50000
+     18      1   2   2       2   0.25000   3.00000
+     19      2   0   0       1   0.12500   0.62500
+     20      2   0   1       2   0.25000   3.25000
+     21      2   0   2       1   0.12500   0.75000
+     22      2   1   0       2   0.25000   3.50000
+     23      2   1   1       5   0.50000   3.00000
+     24      2   1   2       2   0.25000   3.75000
+     25      2   2   0       1   0.12500   0.87500
+     26      2   2   1       2   0.25000   4.00000
+     27      2   2   2       1   0.12500   1.00000
+  weights of k-points:
+       1       1    1.000000    0.250000
+       2       2    4.000000    1.000000
+       3       5    3.000000    0.750000
+  sum of weights:     2.000000
+  internal and cartesian k-vectors:
+   0.00000   0.00000   0.00000             0.00000   0.00000   0.00000
+   0.00000   0.00000   0.50000             0.30398   0.30398  -0.30398
+   0.00000   0.50000   0.50000             0.60797   0.00000   0.00000
+  NO. OF INEQUIVALENT K-POINTS     3
+  INEQUIVALENT BLOCH VECTORS
+    1(  0.000000  0.000000  0.000000)    2(  0.303985  0.303985 -0.303985)
+    3(  0.607969  0.000000  0.000000)
+ tetrahedra to sort: (min. size of parameter INDEXM in ord1.f          48
+ owork: (min. size of parameter NWX in main.f)        1301
+ NUMBER OF DIFFERENT TETRAHEDRA:     2
+ NKP,NDIV,afact            3           2           2           2  0.50000000000000000     
+     0.00000     0.00000     0.00000                0.00000      0.00000      0.00000
+     0.50000     0.50000    -0.50000                2.00000      2.00000     -2.00000
+     1.00000     0.00000     0.00000                4.00000      0.00000      0.00000

@@ -1,0 +1,10 @@
+ 5,'case.inc',         'old',    'formatted',0
+ 6,'case.outputc','unknown','formatted',0
+ 8,'case.vsp',    'old',    'formatted',0
+ 9,'case.clmcor', 'unknown','formatted',0
+19,'case.vns',    'unknown','formatted',0
+20,'case.struct',      'old',    'formatted',0         
+21,'case.scfc',   'unknown','formatted',0
+29,'case.corewf',   'unknown','formatted',0
+67,'case.lcorepot',   'unknown','formatted',0
+83,'case.rsplcore',   'unknown','formatted',0
