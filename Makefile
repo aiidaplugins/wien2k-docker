@@ -1,8 +1,20 @@
-test: 
-	docker build -t aiida-wien2k . 2>&1 | tee build.log
-	@DOCKERID=$$(docker run -d aiida-wien2k /bin/bash); \
-	docker logs -f $$DOCKERID ; \
+image_name := aiida-wien2k
+
+build:
+	docker build -t $(image_name) . 2>&1 | tee build.log
+
+run:
+	docker run -it $(image_name) /bin/bash\
+
+test: build
+	@DOCKERID=$$(docker run -d $(image_name) /bin/bash) ;\
+	docker logs -f $$DOCKERID | tee run.log ;\
 	docker cp $$DOCKERID:/home/aiida/testrun .
 
 clean:
-	rm -rf build.log testrun
+	rm -rf build.log run.log testrun
+
+prune:
+	docker system prune -fa --volumes
+
+purge: clean prune
