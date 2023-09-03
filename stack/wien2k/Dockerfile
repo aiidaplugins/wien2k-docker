@@ -57,8 +57,6 @@ RUN tar -xvf ${WIEN2K_SOURCE} \
     && ./siteconfig_lapw < siteconfig_lapw_inputs \
     && ./userconfig_lapw < userconfig_lapw_inputs 
 
-RUN mkdir /home/aiida/scratch
-
 WORKDIR /home/aiida
 
 COPY --chown=aiida:aiida bashrc_noninteractive.sh .bashrc_noninteractive.sh

@@ -14,7 +14,7 @@ alias cdw="cd /home/aiida/WIEN2k"
 if [ "$OMP_NUM_THREADS" = "" ]; then export OMP_NUM_THREADS=1; fi
 #export LD_LIBRARY_PATH=.....
 export EDITOR="vim"
-export SCRATCH=/home/aiida/scratch
+export SCRATCH=./
 if [ "$WIENROOT" = "" ]; then export WIENROOT=/home/aiida/src/WIEN2k; fi
 export W2WEB_CASE_BASEDIR=/home/aiida/WIEN2k
 export STRUCTEDIT_PATH=$WIENROOT/SRC_structeditor/bin
