@@ -3,75 +3,80 @@ STOP NN ENDS
 STOP LSTART ENDS
 STOP KGEN ENDS
 STOP KGEN ENDS
+grep: No match.
+cp: cannot stat 'case.clmsum': No such file or directory
 STOP NN ENDS
 STOP LSTART ENDS
 STOP KGEN ENDS
 STOP KGEN ENDS
-STOP  LAPW0 END
-STOP  LAPW1 END
-STOP  LAPW2 END
-STOP  CORE  END
-STOP  MIXER END
-STOP  LAPW0 END
-STOP  LAPW1 END
-STOP  LAPW2 END
-STOP  CORE  END
-STOP  MIXER END
-STOP  LAPW0 END
-STOP  LAPW1 END
-STOP  LAPW2 END
-STOP  CORE  END
-STOP  MIXER END
-STOP  LAPW0 END
-STOP  LAPW1 END
-STOP  LAPW2 END
-STOP  CORE  END
-STOP  MIXER END
-STOP  LAPW0 END
-STOP  LAPW1 END
-STOP  LAPW2 END
-STOP  CORE  END
-STOP  MIXER END
-STOP  LAPW0 END
-STOP  LAPW1 END
-STOP  LAPW2 END
-STOP  CORE  END
-STOP  MIXER END
+grep: No match.
+cp: cannot stat 'case.clmsum': No such file or directory
+grep: *scf1*: No such file or directory
+grep: lapw2*.error: No such file or directory
+grep: lapw2*.error: No such file or directory
+head: cannot open 'case.clmsum' for reading: No such file or directory
+grep: lapw2*.error: No such file or directory
+head: cannot open 'case.clmsum' for reading: No such file or directory
+grep: lapw2*.error: No such file or directory
+head: cannot open 'case.clmsum' for reading: No such file or directory
+grep: lapw2*.error: No such file or directory
+head: cannot open 'case.clmsum' for reading: No such file or directory
+grep: lapw2*.error: No such file or directory
+head: cannot open 'case.clmsum' for reading: No such file or directory
+grep: lapw1*.error: No such file or directory
+grep: lapw1*.error: No such file or directory
+head: cannot open 'case.clmsum' for reading: No such file or directory
+cp: cannot stat 'case.scfm': No such file or directory
+cp: cannot stat 'case.scf0': No such file or directory
+cp: cannot stat 'case.scf1': No such file or directory
+cp: cannot stat 'case.scfc': No such file or directory
 STOP NN ENDS
 STOP LSTART ENDS
 STOP KGEN ENDS
 STOP KGEN ENDS
-STOP  LAPW0 END
-STOP  LAPW1 END
-STOP  LAPW2 END
-STOP  CORE  END
-STOP  MIXER END
-STOP  LAPW0 END
-STOP  LAPW1 END
-STOP  LAPW2 END
-STOP  CORE  END
-STOP  MIXER END
-STOP  LAPW0 END
-STOP  LAPW1 END
-STOP  LAPW2 END
-STOP  CORE  END
-STOP  MIXER END
+grep: No match.
+cp: cannot stat 'case.clmsum': No such file or directory
+grep: *scf1*: No such file or directory
+grep: lapw2*.error: No such file or directory
+grep: lapw2*.error: No such file or directory
+head: cannot open 'case.clmsum' for reading: No such file or directory
+grep: lapw2*.error: No such file or directory
+head: cannot open 'case.clmsum' for reading: No such file or directory
+grep: lapw2*.error: No such file or directory
+head: cannot open 'case.clmsum' for reading: No such file or directory
+grep: lapw2*.error: No such file or directory
+head: cannot open 'case.clmsum' for reading: No such file or directory
+grep: lapw2*.error: No such file or directory
+head: cannot open 'case.clmsum' for reading: No such file or directory
+grep: lapw1*.error: No such file or directory
+grep: lapw1*.error: No such file or directory
+head: cannot open 'case.clmsum' for reading: No such file or directory
+cp: cannot stat 'case.scfm': No such file or directory
+cp: cannot stat 'case.scf0': No such file or directory
+cp: cannot stat 'case.scf1': No such file or directory
+cp: cannot stat 'case.scfc': No such file or directory
 STOP NN ENDS
 STOP LSTART ENDS
 STOP KGEN ENDS
 STOP KGEN ENDS
-STOP  LAPW0 END
-STOP  LAPW1 END
-STOP  LAPW2 END
-STOP  CORE  END
-STOP  MIXER END
-STOP  LAPW0 END
-STOP  LAPW1 END
-STOP  LAPW2 END
-STOP  CORE  END
-STOP  MIXER END
-STOP  LAPW0 END
-STOP  LAPW1 END
-STOP  LAPW2 END
-STOP  CORE  END
-STOP  MIXER END
+grep: No match.
+cp: cannot stat 'case.clmsum': No such file or directory
+grep: *scf1*: No such file or directory
+grep: lapw2*.error: No such file or directory
+grep: lapw2*.error: No such file or directory
+head: cannot open 'case.clmsum' for reading: No such file or directory
+grep: lapw2*.error: No such file or directory
+head: cannot open 'case.clmsum' for reading: No such file or directory
+grep: lapw2*.error: No such file or directory
+head: cannot open 'case.clmsum' for reading: No such file or directory
+grep: lapw2*.error: No such file or directory
+head: cannot open 'case.clmsum' for reading: No such file or directory
+grep: lapw2*.error: No such file or directory
+head: cannot open 'case.clmsum' for reading: No such file or directory
+grep: lapw1*.error: No such file or directory
+grep: lapw1*.error: No such file or directory
+head: cannot open 'case.clmsum' for reading: No such file or directory
+cp: cannot stat 'case.scfm': No such file or directory
+cp: cannot stat 'case.scf0': No such file or directory
+cp: cannot stat 'case.scf1': No such file or directory
+cp: cannot stat 'case.scfc': No such file or directory

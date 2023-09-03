@@ -19,7 +19,7 @@ RUN apt update && \
     csh \
     tcsh \
     bc \
-    libopenblas-dev
+    libopenblas64-openmp-dev
 
 # Create the `aiida` user; make him a sudoer that can execute sudo commands without a password
 RUN useradd -ms /bin/bash aiida && \

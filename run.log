@@ -5,7 +5,7 @@ runopt:  -i 100 -cc 0.01 -ec 0.01
 red:  -red 3
 numk2 not set
 deltak not set
-0.000u 0.002s 0:00.00 0.0%	0+0k 0+8io 0pf+0w
+0.002u 0.002s 0:00.00 0.0%	0+0k 0+8io 0pf+0w
 sgroup completed OK
 moving case.struct_sgroup -> case.struct
  initialize for RMT settings
@@ -19,7 +19,7 @@ moving case.struct_sgroup -> case.struct
     ATOM  1  Si1        ATOM  1  Si1       
  RMT(  1)=2.16000 AND RMT(  1)=2.16000
  SUMS TO 4.32000  LT.  NN-DIST= 4.47506
-0.000u 0.006s 0:00.00 0.0%	0+0k 0+32io 0pf+0w
+0.000u 0.002s 0:00.00 0.0%	0+0k 0+32io 0pf+0w
 atom  Z   RMT-max   RMT 
  1  14.0  2.16   2.16  
 file    case.struct_setrmt   generated  
@@ -32,14 +32,14 @@ file    case.struct_setrmt   generated
     ATOM  1  Si1        ATOM  1  Si1       
  RMT(  1)=2.16000 AND RMT(  1)=2.16000
  SUMS TO 4.32000  LT.  NN-DIST= 4.47506
-0.000u 0.000s 0:00.00 0.0%	0+0k 0+8io 0pf+0w
+0.000u 0.001s 0:00.00 0.0%	0+0k 0+8io 0pf+0w
  next is sgroup 
->   sgroup 	(07:00:40) 0.000u 0.001s 0:00.00 0.0%	0+0k 0+8io 0pf+0w
+>   sgroup 	(07:14:10) 0.000u 0.001s 0:00.00 0.0%	0+0k 0+8io 0pf+0w
   Names of point group: -43m  -43m    Td
 Number and name of space group: 227 (F d -3 m) [origin choice 2]
  next is symmetry 
->   symmetry 	(07:00:40)  SPACE GROUP CONTAINS INVERSION
-0.001u 0.001s 0:00.00 0.0%	0+0k 0+80io 0pf+0w
+>   symmetry 	(07:14:10)  SPACE GROUP CONTAINS INVERSION
+0.000u 0.003s 0:00.00 0.0%	0+0k 0+80io 0pf+0w
  next is lstart 
  1 Atoms found:  with labels Si1  
 generate atomic configuration for atom 1 : Si1
@@ -56,7 +56,7 @@ generate atomic configuration for atom 1 : Si1
  set LVNS = 6 
  set GMAX = 20.0 
  set IFFTfac = 3.0 
->   inputfiles prepared	(07:00:40)  
+>   inputfiles prepared	(07:14:10)  
  inputfiles prepared 
  next is kgen 
 NUMK: 2 2 2
@@ -67,11 +67,11 @@ basic k-mesh: 11, 11, 11 = 1331,  kfactor = 10
            3  k-points generated, ndiv=           2           2           2
  delta-K (bohr^-1):     0.5265    0.5265    0.5265
  next is dstart 
->   dstart   -p  > & .mist	(07:00:40) running dstart in single mode
-STOP DSTART ENDS
-0.202u 0.007s 0:00.21 95.2%	0+0k 0+440io 0pf+0w
+>   dstart   -p  > & .mist	(07:14:10) running dstart in single mode
+dstart: Command not found.
+0.003u 0.006s 0:00.01 0.0%	0+0k 0+16io 0pf+0w
+error: command   /home/aiida/src/WIEN2k/dstartpara dstart.def   failed
 
------> new case.in0 generated
   init_lapw finished ok  
  initialize with -prec 1
  next is setrmt 
@@ -84,14 +84,14 @@ STOP DSTART ENDS
     ATOM  1  Si1        ATOM  1  Si1       
  RMT(  1)=2.16000 AND RMT(  1)=2.16000
  SUMS TO 4.32000  LT.  NN-DIST= 4.47506
-0.001u 0.001s 0:00.00 0.0%	0+0k 0+8io 0pf+0w
+0.000u 0.000s 0:00.00 0.0%	0+0k 0+8io 0pf+0w
  next is sgroup 
->   sgroup 	(07:00:40) 0.000u 0.001s 0:00.00 0.0%	0+0k 0+8io 0pf+0w
+>   sgroup 	(07:14:11) 0.000u 0.001s 0:00.00 0.0%	0+0k 0+8io 0pf+0w
   Names of point group: -43m  -43m    Td
 Number and name of space group: 227 (F d -3 m) [origin choice 2]
  next is symmetry 
->   symmetry 	(07:00:40)  SPACE GROUP CONTAINS INVERSION
-0.000u 0.000s 0:00.00 0.0%	0+0k 0+64io 0pf+0w
+>   symmetry 	(07:14:11)  SPACE GROUP CONTAINS INVERSION
+0.000u 0.001s 0:00.00 0.0%	0+0k 0+64io 0pf+0w
  next is lstart 
   SELECT XCPOT:
   recommended: PBE    [(13) GGA of Perdew-Burke-Ernzerhof 96]
@@ -106,7 +106,7 @@ Number and name of space group: 227 (F d -3 m) [origin choice 2]
  set LVNS = 6 
  set GMAX = 16.0 
  set IFFTfac = 2.0 
->   inputfiles prepared	(07:00:41)  
+>   inputfiles prepared	(07:14:11)  
  inputfiles prepared 
  next is kgen 
 NUMK: 2 2 2
@@ -117,25 +117,15 @@ basic k-mesh: 11, 11, 11 = 1331,  kfactor = 1
            3  k-points generated, ndiv=           2           2           2
  delta-K (bohr^-1):     0.5265    0.5265    0.5265
  next is dstart 
->   dstart   -p -super > & .mist	(07:00:41) running dstart in single mode
-STOP DSTART ENDS
-0.147u 0.013s 0:00.16 93.7%	0+0k 0+272io 0pf+0w
+>   dstart   -p -super > & .mist	(07:14:11) running dstart in single mode
+dstart: Command not found.
+0.003u 0.004s 0:00.00 0.0%	0+0k 0+16io 0pf+0w
+error: command   /home/aiida/src/WIEN2k/dstartpara dstart.def   failed
 
------> new case.in0 generated
   init_lapw finished ok  
-ec cc fc and str_conv 0 0 1 1
-in cycle 2    ETEST: 0   CTEST: 0   STRTEST: 0
-ec cc fc and str_conv 0 0 1 1
-in cycle 3    ETEST: 0   CTEST: 0   STRTEST: 0
-ec cc fc and str_conv 1 0 1 1
-in cycle 4    ETEST: .0067810550000000   CTEST: .1461919   STRTEST: 0
-ec cc fc and str_conv 0 0 1 1
-in cycle 5    ETEST: .0108216500000000   CTEST: .0913636   STRTEST: 0
-ec cc fc and str_conv 1 0 1 1
-in cycle 6    ETEST: .0076295050000000   CTEST: .0053100   STRTEST: 0
-ec cc fc and str_conv 1 1 1 1
+no case.clmsum(_old) file found, which is necessary for lapw0 !
 
->   stop
+>   stop error
 New version of save_lapw selected
 
 Starting save:
@@ -171,8 +161,6 @@ Starting save:
    case.scf2dn -> ./prec1.scf2dn
    case.in0 -> ./prec1.in0
    case.in0_st -> ./prec1.in0_st
-   case.in0_std -> ./prec1.in0_std
-   case.in0abp -> ./prec1.in0abp
    case.in1 -> ./prec1.in1
    case.in1_st -> ./prec1.in1_st
    case.in2 -> ./prec1.in2
@@ -181,13 +169,11 @@ Starting save:
    case.in2_sy -> ./prec1.in2_sy
    case.inc -> ./prec1.inc
    case.inc_st -> ./prec1.inc_st
-   case.indstart -> ./prec1.indstart
    case.inm -> ./prec1.inm
    case.inm_restart_st -> ./prec1.inm_restart_st
    case.inm_st -> ./prec1.inm_st
    case.inq -> ./prec1.inq
    case.inq_st -> ./prec1.inq_st
-   case.inso -> ./prec1.inso
    case.inst -> ./prec1.inst
    case.nmat_only -> ./prec1.nmat_only
    case.vsp -> ./prec1.vsp
@@ -227,14 +213,14 @@ broyden files deleted, clm*, dmat*, vorb*, vresp*, tau*, eece*, vsp*, vns*, scf,
     ATOM  1  Si1        ATOM  1  Si1       
  RMT(  1)=2.16000 AND RMT(  1)=2.16000
  SUMS TO 4.32000  LT.  NN-DIST= 4.47506
-0.002u 0.003s 0:00.00 0.0%	0+0k 0+32io 0pf+0w
+0.000u 0.000s 0:00.00 0.0%	0+0k 0+8io 0pf+0w
  next is sgroup 
->   sgroup 	(07:00:58) 0.000u 0.001s 0:00.00 0.0%	0+0k 0+8io 0pf+0w
+>   sgroup 	(07:14:11) 0.000u 0.001s 0:00.00 0.0%	0+0k 0+8io 0pf+0w
   Names of point group: -43m  -43m    Td
 Number and name of space group: 227 (F d -3 m) [origin choice 2]
  next is symmetry 
->   symmetry 	(07:00:58)  SPACE GROUP CONTAINS INVERSION
-0.003u 0.010s 0:00.01 100.0%	0+0k 0+80io 0pf+0w
+>   symmetry 	(07:14:11)  SPACE GROUP CONTAINS INVERSION
+0.000u 0.000s 0:00.00 0.0%	0+0k 0+64io 0pf+0w
  next is lstart 
   SELECT XCPOT:
   recommended: PBE    [(13) GGA of Perdew-Burke-Ernzerhof 96]
@@ -249,7 +235,7 @@ Number and name of space group: 227 (F d -3 m) [origin choice 2]
  set LVNS = 6 
  set GMAX = 20.0 
  set IFFTfac = 3.0 
->   inputfiles prepared	(07:00:58)  
+>   inputfiles prepared	(07:14:11)  
  inputfiles prepared 
  next is kgen 
 NUMK: 2 2 2
@@ -260,19 +246,15 @@ basic k-mesh: 11, 11, 11 = 1331,  kfactor = 10
            3  k-points generated, ndiv=           2           2           2
  delta-K (bohr^-1):     0.5265    0.5265    0.5265
  next is dstart 
->   dstart   -p -super > & .mist	(07:00:59) running dstart in single mode
-STOP DSTART ENDS
-0.236u 0.022s 0:00.26 96.1%	0+0k 0+336io 0pf+0w
+>   dstart   -p -super > & .mist	(07:14:11) running dstart in single mode
+dstart: Command not found.
+0.003u 0.004s 0:00.00 0.0%	0+0k 0+16io 0pf+0w
+error: command   /home/aiida/src/WIEN2k/dstartpara dstart.def   failed
 
------> new case.in0 generated
   init_lapw finished ok  
-ec cc fc and str_conv 0 0 1 1
-in cycle 2    ETEST: 0   CTEST: 0   STRTEST: 0
-ec cc fc and str_conv 0 0 1 1
-in cycle 3    ETEST: 0   CTEST: 0   STRTEST: 0
-ec cc fc and str_conv 1 1 1 1
+no case.clmsum(_old) file found, which is necessary for lapw0 !
 
->   stop
+>   stop error
 New version of save_lapw selected
 
 Starting save:
@@ -308,8 +290,6 @@ Starting save:
    case.scf2dn -> ./prec2.scf2dn
    case.in0 -> ./prec2.in0
    case.in0_st -> ./prec2.in0_st
-   case.in0_std -> ./prec2.in0_std
-   case.in0abp -> ./prec2.in0abp
    case.in1 -> ./prec2.in1
    case.in1_st -> ./prec2.in1_st
    case.in2 -> ./prec2.in2
@@ -318,13 +298,11 @@ Starting save:
    case.in2_sy -> ./prec2.in2_sy
    case.inc -> ./prec2.inc
    case.inc_st -> ./prec2.inc_st
-   case.indstart -> ./prec2.indstart
    case.inm -> ./prec2.inm
    case.inm_restart_st -> ./prec2.inm_restart_st
    case.inm_st -> ./prec2.inm_st
    case.inq -> ./prec2.inq
    case.inq_st -> ./prec2.inq_st
-   case.inso -> ./prec2.inso
    case.inst -> ./prec2.inst
    case.nmat_only -> ./prec2.nmat_only
    case.vsp -> ./prec2.vsp
@@ -364,14 +342,14 @@ broyden files deleted, clm*, dmat*, vorb*, vresp*, tau*, eece*, vsp*, vns*, scf,
     ATOM  1  Si1        ATOM  1  Si1       
  RMT(  1)=2.16000 AND RMT(  1)=2.16000
  SUMS TO 4.32000  LT.  NN-DIST= 4.47506
-0.000u 0.002s 0:00.00 0.0%	0+0k 0+32io 0pf+0w
+0.000u 0.000s 0:00.00 0.0%	0+0k 0+8io 0pf+0w
  next is sgroup 
->   sgroup 	(07:01:42) 0.000u 0.001s 0:00.00 0.0%	0+0k 0+8io 0pf+0w
+>   sgroup 	(07:14:11) 0.000u 0.001s 0:00.00 0.0%	0+0k 0+8io 0pf+0w
   Names of point group: -43m  -43m    Td
 Number and name of space group: 227 (F d -3 m) [origin choice 2]
  next is symmetry 
->   symmetry 	(07:01:42)  SPACE GROUP CONTAINS INVERSION
-0.002u 0.000s 0:00.00 0.0%	0+0k 0+80io 0pf+0w
+>   symmetry 	(07:14:11)  SPACE GROUP CONTAINS INVERSION
+0.000u 0.001s 0:00.00 0.0%	0+0k 0+64io 0pf+0w
  next is lstart 
   SELECT XCPOT:
   recommended: PBE    [(13) GGA of Perdew-Burke-Ernzerhof 96]
@@ -386,7 +364,7 @@ Number and name of space group: 227 (F d -3 m) [origin choice 2]
  set LVNS = 8 
  set GMAX = 25.0 
  set IFFTfac = 3.0 
->   inputfiles prepared	(07:01:42)  
+>   inputfiles prepared	(07:14:12)  
  inputfiles prepared 
  next is kgen 
 NUMK: 2 2 2
@@ -397,19 +375,15 @@ basic k-mesh: 11, 11, 11 = 1331,  kfactor = 30
            3  k-points generated, ndiv=           2           2           2
  delta-K (bohr^-1):     0.5265    0.5265    0.5265
  next is dstart 
->   dstart   -p -super > & .mist	(07:01:42) running dstart in single mode
-STOP DSTART ENDS
-0.250u 0.008s 0:00.25 100.0%	0+0k 0+432io 0pf+0w
+>   dstart   -p -super > & .mist	(07:14:12) running dstart in single mode
+dstart: Command not found.
+0.002u 0.007s 0:00.01 0.0%	0+0k 0+16io 0pf+0w
+error: command   /home/aiida/src/WIEN2k/dstartpara dstart.def   failed
 
------> new case.in0 generated
   init_lapw finished ok  
-ec cc fc and str_conv 0 0 1 1
-in cycle 2    ETEST: 0   CTEST: 0   STRTEST: 0
-ec cc fc and str_conv 0 0 1 1
-in cycle 3    ETEST: 0   CTEST: 0   STRTEST: 0
-ec cc fc and str_conv 1 1 1 1
+no case.clmsum(_old) file found, which is necessary for lapw0 !
 
->   stop
+>   stop error
 New version of save_lapw selected
 
 Starting save:
@@ -445,8 +419,6 @@ Starting save:
    case.scf2dn -> ./prec3.scf2dn
    case.in0 -> ./prec3.in0
    case.in0_st -> ./prec3.in0_st
-   case.in0_std -> ./prec3.in0_std
-   case.in0abp -> ./prec3.in0abp
    case.in1 -> ./prec3.in1
    case.in1_st -> ./prec3.in1_st
    case.in2 -> ./prec3.in2
@@ -455,13 +427,11 @@ Starting save:
    case.in2_sy -> ./prec3.in2_sy
    case.inc -> ./prec3.inc
    case.inc_st -> ./prec3.inc_st
-   case.indstart -> ./prec3.indstart
    case.inm -> ./prec3.inm
    case.inm_restart_st -> ./prec3.inm_restart_st
    case.inm_st -> ./prec3.inm_st
    case.inq -> ./prec3.inq
    case.inq_st -> ./prec3.inq_st
-   case.inso -> ./prec3.inso
    case.inst -> ./prec3.inst
    case.nmat_only -> ./prec3.nmat_only
    case.vsp -> ./prec3.vsp
