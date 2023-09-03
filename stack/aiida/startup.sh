@@ -1,17 +1,17 @@
 #!/bin/bash
-source /home/aiida/bashrc_noninteractive.sh
+source /home/aiida/.bashrc_noninteractive.sh
 
 sudo service postgresql start
 sudo service rabbitmq-server start
 
 psql -l > /dev/null 2>&1 || {
     echo ' ⭐️ Setting up the `aiida` postgres role...'
-    sudo -u postgres createuser aiida
-    sudo -u postgres psql -U postgres -c "ALTER USER aiida WITH PASSWORD 'database';" 1>/dev/null 
+    sudo -u postgres sh -c 'cd /tmp && createuser aiida'
+    sudo -u postgres sh -c "cd /tmp && psql -U postgres -c \"ALTER USER aiida WITH PASSWORD 'database';\" 1>/dev/null"
 }
 psql -d w2k > /dev/null 2>&1 || {
     echo ' ✨ Creating the `w2k` database...'
-    sudo -u postgres createdb -O aiida w2k
+    sudo -u postgres sh -c 'cd /tmp && createdb -O aiida w2k'
 }
 
 source /home/aiida/.aiida_venvs/w2k/bin/activate 2>/dev/null
