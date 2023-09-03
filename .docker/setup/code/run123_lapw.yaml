@@ -1,9 +1,0 @@
-label: "run123_lapw"
-description: "wien2k run123_lapw"
-input_plugin: "wien2k-run123_lapw"
-on_computer: true
-remote_abs_path: "/home/aiida/src/WIEN2k/run123_lapw"
-computer: "localhost"
-prepend_text: |
-  export WIENROOT=/home/aiida/src/WIEN2k
-  cd case

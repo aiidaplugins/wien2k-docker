@@ -1,26 +1,30 @@
-image_name := aiida-wien2k
-wienk2k_source ?= WIEN2k_23.2.tar
+WIEN2K_SOURCE ?= WIEN2k_23.2.tar
 
-build:
-	docker build --build-arg wienk2k_source=$(wienk2k_source) -t $(image_name) . 2>&1 | tee build.log
+wien2k:
+	cp $(WIEN2K_SOURCE) stack/wien2k
+	docker build -t wien2k stack/wien2k --build-arg wien2k_source=$(WIEN2K_SOURCE)
+	rm stack/wien2k/$(WIEN2K_SOURCE)
 
-run:
-	docker run -it $(image_name) /bin/bash
+aiida:
+	cp $(WIEN2K_SOURCE) stack/wien2k
+	WIEN2K_SOURCE=$(WIEN2K_SOURCE) docker-compose -f stack/docker-compose.yaml up -d
+	rm stack/wien2k/$(WIEN2K_SOURCE)
 
-test-aiida: build
-	@DOCKERID=$$(docker run -d $(image_name) /bin/bash /home/aiida/aiida_run/submit.sh) ;\
+run-wien2k:
+	docker run -it wien2k /bin/bash
+
+run-aiida:
+	docker run -it aiida-wien2k /bin/bash
+
+test-wien2k: wien2k
+	@DOCKERID=$$(docker run -d wien2k /bin/bash /home/aiida/wien2k_run/submit.sh) ;\
+	docker logs -f $$DOCKERID | tee run.log ;\
+	docker cp $$DOCKERID:/home/aiida/wien2k_run .
+
+test-aiida: aiida
+	@DOCKERID=$$(docker exec -d aiida-wien2k /bin/bash /home/aiida/aiida_run/submit.sh) ;\
 	docker logs -f $$DOCKERID | tee run.log ;\
 	docker cp $$DOCKERID:/home/aiida/aiida_run .
 
-test-manual: build
-	@DOCKERID=$$(docker run -d $(image_name) /bin/bash /home/aiida/manual_run/submit.sh) ;\
-	docker logs -f $$DOCKERID | tee run.log ;\
-	docker cp $$DOCKERID:/home/aiida/manual_run .
-
 clean:
-	rm -rf build.log run.log aiida_run manual_run
-
-prune:
-	docker system prune -fa --volumes
-
-purge: clean prune
+	rm -rf build.log run.log aiida_run wien2k_run
