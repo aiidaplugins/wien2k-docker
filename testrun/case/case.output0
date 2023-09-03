@@ -597,13 +597,13 @@ XC Quadrature in Interstitial, 19 points
 
 
    =====>>> CPU-TIME SUMMARY
-            TOTAL CPU/WALL-TIME USED  :    23.1     100. PERCENT   23.1     100. PERCENT
-            TIME MULTIPOLMOMENTS      :          0.8       4. PERCENT    0.8       4. PERCENT
+            TOTAL CPU/WALL-TIME USED  :    21.3     100. PERCENT   21.3     100. PERCENT
+            TIME MULTIPOLMOMENTS      :          0.5       2. PERCENT    0.5       2. PERCENT
             TIME COULOMB POT INT      :          0.0       0. PERCENT    0.0       0. PERCENT
             TIME COULOMB POT RMT      :          0.0       0. PERCENT    0.0       0. PERCENT
             TIME COULOMB POT SPH      :          0.0       0. PERCENT    0.0       0. PERCENT
             TIME XCPOT SPHERES        :          0.2       1. PERCENT    0.2       1. PERCENT
-            TIME XCPOT INTERST        :         19.5      85. PERCENT   19.5      85. PERCENT
-            TIME TOTAL ENERGY         :          1.0       4. PERCENT    1.0       4. PERCENT
+            TIME XCPOT INTERST        :         18.3      86. PERCENT   18.3      86. PERCENT
+            TIME TOTAL ENERGY         :          0.9       4. PERCENT    0.9       4. PERCENT
             TIME REAN0, REAN3         :          0.9       0. PERCENT    0.9       0. PERCENT
-            TIME REANALYSE            :          1.5       7. PERCENT    1.5       7. PERCENT
+            TIME REANALYSE            :          1.4       7. PERCENT    1.4       7. PERCENT

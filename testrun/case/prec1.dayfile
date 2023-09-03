@@ -1,78 +1,78 @@
 
 Calculating case in /home/aiida/testrun/case
-on d1f64a630c4e with PID 569
+on 71190d454cb1 with PID 569
 using WIEN2k_23.2 (Release 9/3/2022) in /home/aiida/src/WIEN2k
 
 
-    start 	(Sun Sep  3 06:47:25 UTC 2023) with lapw0 (100/99 to go)
+    start 	(Sun Sep  3 07:00:41 UTC 2023) with lapw0 (100/99 to go)
 
-    cycle 1 	(Sun Sep  3 06:47:25 UTC 2023) 	(100/99 to go)
+    cycle 1 	(Sun Sep  3 07:00:41 UTC 2023) 	(100/99 to go)
 
->   lapw0      	(06:47:25) 1.555u 0.102s 0:01.66 99.3%	0+0k 0+504io 0pf+0w
->   lapw1       	(06:47:26) 0.040u 0.015s 0:00.05 100.0%	0+0k 0+624io 0pf+0w
->   lapw2         	(06:47:26) 0.052u 0.009s 0:00.06 83.3%	0+0k 0+360io 0pf+0w
->   lcore    	(06:47:27) 0.005u 0.002s 0:00.00 0.0%	0+0k 0+200io 0pf+0w
->   mixer 	(06:47:27) 0.053u 0.005s 0:00.05 100.0%	0+0k 0+592io 0pf+0w
+>   lapw0      	(07:00:41) 1.575u 0.126s 0:01.71 98.8%	0+0k 0+504io 0pf+0w
+>   lapw1       	(07:00:43) 0.040u 0.009s 0:00.04 100.0%	0+0k 0+624io 0pf+0w
+>   lapw2         	(07:00:43) 0.055u 0.008s 0:00.06 83.3%	0+0k 0+360io 0pf+0w
+>   lcore    	(07:00:43) 0.007u 0.001s 0:00.00 0.0%	0+0k 0+200io 0pf+0w
+>   mixer 	(07:00:43) 0.051u 0.009s 0:00.06 83.3%	0+0k 0+592io 0pf+0w
 :ENERGY convergence:  0 0.01 0
 :CHARGE convergence:  0 0.01 0
 :STRESS convergence:  0 0.0 0 YY
 ec cc fc and str_conv 0 0 1 1
 
-    cycle 2 	(Sun Sep  3 06:47:27 UTC 2023) 	(99/98 to go)
+    cycle 2 	(Sun Sep  3 07:00:43 UTC 2023) 	(99/98 to go)
 
->   lapw0      	(06:47:27) 1.726u 0.511s 0:02.23 100.0%	0+0k 0+328io 0pf+0w
->   lapw1       	(06:47:29) 0.034u 0.013s 0:00.04 100.0%	0+0k 0+600io 0pf+0w
->   lapw2         	(06:47:29) 0.056u 0.005s 0:00.06 83.3%	0+0k 0+352io 0pf+0w
->   lcore    	(06:47:29) 0.005u 0.004s 0:00.00 0.0%	0+0k 0+200io 0pf+0w
->   mixer 	(06:47:29) 0.008u 0.011s 0:00.02 50.0%	0+0k 0+584io 0pf+0w
+>   lapw0      	(07:00:43) 1.698u 0.548s 0:02.24 99.5%	0+0k 0+328io 0pf+0w
+>   lapw1       	(07:00:45) 0.042u 0.005s 0:00.04 100.0%	0+0k 0+600io 0pf+0w
+>   lapw2         	(07:00:45) 0.061u 0.011s 0:00.07 100.0%	0+0k 0+352io 0pf+0w
+>   lcore    	(07:00:46) 0.007u 0.002s 0:00.00 0.0%	0+0k 0+200io 0pf+0w
+>   mixer 	(07:00:46) 0.009u 0.003s 0:00.01 0.0%	0+0k 0+584io 0pf+0w
 :ENERGY convergence:  0 0.01 0
 :CHARGE convergence:  0 0.01 0
 :STRESS convergence:  0 0.0 0 YY
 ec cc fc and str_conv 0 0 1 1
 
-    cycle 3 	(Sun Sep  3 06:47:30 UTC 2023) 	(98/97 to go)
+    cycle 3 	(Sun Sep  3 07:00:46 UTC 2023) 	(98/97 to go)
 
->   lapw0      	(06:47:30) 1.776u 0.567s 0:02.34 99.5%	0+0k 8+344io 0pf+0w
->   lapw1       	(06:47:32) 0.038u 0.010s 0:00.04 100.0%	0+0k 0+600io 0pf+0w
->   lapw2         	(06:47:32) 0.113u 0.033s 0:00.14 100.0%	0+0k 0+352io 0pf+0w
->   lcore    	(06:47:32) 0.006u 0.004s 0:00.01 0.0%	0+0k 0+200io 0pf+0w
->   mixer 	(06:47:32) 0.010u 0.004s 0:00.01 100.0%	0+0k 0+592io 0pf+0w
+>   lapw0      	(07:00:46) 1.753u 0.637s 0:02.43 97.9%	0+0k 0+344io 0pf+0w
+>   lapw1       	(07:00:48) 0.036u 0.011s 0:00.04 100.0%	0+0k 0+600io 0pf+0w
+>   lapw2         	(07:00:48) 0.054u 0.011s 0:00.06 100.0%	0+0k 0+352io 0pf+0w
+>   lcore    	(07:00:49) 0.005u 0.004s 0:00.01 0.0%	0+0k 0+200io 0pf+0w
+>   mixer 	(07:00:49) 0.011u 0.008s 0:00.02 50.0%	0+0k 0+592io 0pf+0w
 :ENERGY convergence:  1 0.01 .0067810550000000
 :CHARGE convergence:  0 0.01 .1461919
 :STRESS convergence:  0 0.0 0 YY
 ec cc fc and str_conv 1 0 1 1
 
-    cycle 4 	(Sun Sep  3 06:47:33 UTC 2023) 	(97/96 to go)
+    cycle 4 	(Sun Sep  3 07:00:49 UTC 2023) 	(97/96 to go)
 
->   lapw0      	(06:47:33) 1.724u 0.315s 0:02.04 99.5%	0+0k 0+296io 0pf+0w
->   lapw1       	(06:47:35) 0.035u 0.012s 0:00.04 100.0%	0+0k 0+608io 0pf+0w
->   lapw2         	(06:47:35) 0.052u 0.011s 0:00.06 100.0%	0+0k 0+352io 0pf+0w
->   lcore    	(06:47:35) 0.005u 0.002s 0:00.00 0.0%	0+0k 0+200io 0pf+0w
->   mixer 	(06:47:35) 0.007u 0.005s 0:00.01 0.0%	0+0k 0+592io 0pf+0w
+>   lapw0      	(07:00:49) 1.990u 0.501s 0:02.49 100.0%	0+0k 8+336io 0pf+0w
+>   lapw1       	(07:00:51) 0.050u 0.013s 0:00.06 100.0%	0+0k 0+600io 0pf+0w
+>   lapw2         	(07:00:52) 0.062u 0.009s 0:00.07 85.7%	0+0k 0+352io 0pf+0w
+>   lcore    	(07:00:52) 0.005u 0.002s 0:00.00 0.0%	0+0k 0+200io 0pf+0w
+>   mixer 	(07:00:52) 0.009u 0.005s 0:00.01 0.0%	0+0k 0+592io 0pf+0w
 :ENERGY convergence:  0 0.01 .0108216500000000
 :CHARGE convergence:  0 0.01 .0913636
 :STRESS convergence:  0 0.0 0 YY
 ec cc fc and str_conv 0 0 1 1
 
-    cycle 5 	(Sun Sep  3 06:47:35 UTC 2023) 	(96/95 to go)
+    cycle 5 	(Sun Sep  3 07:00:52 UTC 2023) 	(96/95 to go)
 
->   lapw0      	(06:47:35) 2.064u 0.170s 0:02.47 90.2%	0+0k 0+344io 0pf+0w
->   lapw1       	(06:47:38) 0.048u 0.023s 0:00.08 75.0%	0+0k 0+592io 0pf+0w
->   lapw2         	(06:47:38) 0.096u 0.015s 0:00.12 83.3%	0+0k 0+352io 0pf+0w
->   lcore    	(06:47:38) 0.007u 0.003s 0:00.01 0.0%	0+0k 0+200io 0pf+0w
->   mixer 	(06:47:38) 0.006u 0.009s 0:00.01 0.0%	0+0k 0+592io 0pf+0w
+>   lapw0      	(07:00:52) 1.892u 0.260s 0:02.15 100.0%	0+0k 0+296io 0pf+0w
+>   lapw1       	(07:00:54) 0.040u 0.015s 0:00.05 100.0%	0+0k 0+552io 0pf+0w
+>   lapw2         	(07:00:54) 0.057u 0.008s 0:00.06 83.3%	0+0k 0+320io 0pf+0w
+>   lcore    	(07:00:54) 0.008u 0.001s 0:00.00 0.0%	0+0k 0+152io 0pf+0w
+>   mixer 	(07:00:54) 0.011u 0.007s 0:00.01 100.0%	0+0k 0+552io 0pf+0w
 :ENERGY convergence:  1 0.01 .0076295050000000
 :CHARGE convergence:  0 0.01 .0053100
 :STRESS convergence:  0 0.0 0 YY
 ec cc fc and str_conv 1 0 1 1
 
-    cycle 6 	(Sun Sep  3 06:47:38 UTC 2023) 	(95/94 to go)
+    cycle 6 	(Sun Sep  3 07:00:55 UTC 2023) 	(95/94 to go)
 
->   lapw0      	(06:47:38) 1.786u 0.102s 0:01.88 100.0%	0+0k 0+336io 0pf+0w
->   lapw1       	(06:47:40) 0.039u 0.013s 0:00.05 80.0%	0+0k 0+600io 0pf+0w
->   lapw2         	(06:47:40) 0.065u 0.014s 0:00.08 87.5%	0+0k 0+352io 0pf+0w
->   lcore    	(06:47:40) 0.041u 0.024s 0:00.07 85.7%	0+0k 0+200io 0pf+0w
->   mixer 	(06:47:41) 0.010u 0.004s 0:00.01 100.0%	0+0k 0+592io 0pf+0w
+>   lapw0      	(07:00:55) 2.142u 0.209s 0:02.50 93.6%	0+0k 0+328io 0pf+0w
+>   lapw1       	(07:00:57) 0.045u 0.016s 0:00.06 83.3%	0+0k 0+600io 0pf+0w
+>   lapw2         	(07:00:57) 0.055u 0.011s 0:00.06 100.0%	0+0k 0+352io 0pf+0w
+>   lcore    	(07:00:57) 0.002u 0.006s 0:00.00 0.0%	0+0k 0+200io 0pf+0w
+>   mixer 	(07:00:57) 0.010u 0.005s 0:00.01 100.0%	0+0k 0+592io 0pf+0w
 :ENERGY convergence:  1 0.01 .0016609450000000
 :CHARGE convergence:  1 0.01 -.0085356
 :STRESS convergence:  0 0.0 0 YY

@@ -1,6 +1,6 @@
 
 :LABEL1: Calculations in /home/aiida/testrun/case
-:LABEL2: on d1f64a630c4e at Sun Sep  3 06:48:24 UTC 2023
+:LABEL2: on 71190d454cb1 at Sun Sep  3 07:01:42 UTC 2023
 :LABEL3: using WIEN2k_23.2 (Release 9/3/2022) in /home/aiida/src/WIEN2k
 
 :LABEL4: using the command: run_lapw -i 100 -cc 0.01 -ec 0.01

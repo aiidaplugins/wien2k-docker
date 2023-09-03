@@ -1869,7 +1869,7 @@
        KVEC(      1847) =    28   -2  -30   24.9786   48
        KVEC(      1848) =    36  -14  -14   24.9786   24
         SIZE INCLUDING STAR MEMBERS =      72497
-  time in recpr:   0.13528099999999998     
+  time in recpr:   0.13525499999999999     
  BZ-integration with TETRA-program.   icor=: 1
  Equal occupancy of degenerate states, tol=: 0.1E-05
  call eord...
@@ -2030,13 +2030,13 @@ LO COEFFICIENT: l,A,B,C   1          1.10585     0.00000    17.14642
    =====>>> CPU TIME SUMMARY
 
             TOTAL       :      0.2     ... 100. PERCENT
-            PART FERMI  :      0.1     ...  84. PERCENT
-            PART CLM    :      0.0     ...   9. PERCENT
-            PART FOURIR :      0.0     ...   6. PERCENT
+            PART FERMI  :      0.1     ...  83. PERCENT
+            PART CLM    :      0.0     ...  10. PERCENT
+            PART FOURIR :      0.0     ...   7. PERCENT
 
    =====>>> WALL TIME SUMMARY
 
             TOTAL       :      0.2     ... 100. PERCENT
-            PART FERMI  :      0.1     ...  84. PERCENT
-            PART CLM    :      0.0     ...   9. PERCENT
-            PART FOURIR :      0.0     ...   6. PERCENT
+            PART FERMI  :      0.1     ...  83. PERCENT
+            PART CLM    :      0.0     ...  10. PERCENT
+            PART FOURIR :      0.0     ...   7. PERCENT

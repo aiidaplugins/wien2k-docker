@@ -7,10 +7,8 @@ gcc
 
 
 N
-Y
-
-Y
-1
+n
+/home/aiida/src/fftw-3.3.10
 lib
 fftw3
 Y

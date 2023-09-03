@@ -273,10 +273,10 @@ Time for vector      (hns) :          0.0         0.0
 Time for vector2     (hns) :          0.0         0.0
 Time for VxV         (hns) :          0.0         0.0
           15  Eigenvalues computed 
- Seclr4(Cholesky complete (CPU)) :               0.001     28624.97 Mflops
- Seclr4(Transform to eig.problem (CPU)) :        0.004     29803.08 Mflops
- Seclr4(Compute eigenvalues (CPU)) :             0.014     10305.48 Mflops
- Seclr4(Backtransform (CPU)) :                   0.000      4573.48 Mflops
+ Seclr4(Cholesky complete (CPU)) :               0.001     28420.01 Mflops
+ Seclr4(Transform to eig.problem (CPU)) :        0.004     29944.64 Mflops
+ Seclr4(Compute eigenvalues (CPU)) :             0.014     10337.54 Mflops
+ Seclr4(Backtransform (CPU)) :                   0.000      4598.34 Mflops
        TIME HAMILT (CPU)  =     0.0, HNS =     0.0, HORB =     0.0, DIAG =     0.0, SYNC =     0.0
        TIME HAMILT (WALL) =     0.0, HNS =     0.0, HORB =     0.0, DIAG =     0.0, SYNC =     0.0
 
@@ -309,7 +309,7 @@ allocate al,bl (col)         0.0 MB          dimensions   128    11
 Time for al,bl    (hamilt, cpu/wall) :         0.00        0.00
 Time for legendre (hamilt, cpu/wall) :         0.00        0.00
 Time for phase    (hamilt, cpu/wall) :         0.00        0.00
-Time for us       (hamilt, cpu/wall) :         0.00        0.01
+Time for us       (hamilt, cpu/wall) :         0.00        0.00
 Time for overlaps (hamilt, cpu/wall) :         0.00        0.00
 Time for distrib  (hamilt, cpu/wall) :         0.00        0.00
 Time sum iouter   (hamilt, cpu/wall) :         0.01        0.01
@@ -319,10 +319,10 @@ Time for vector      (hns) :          0.0         0.0
 Time for vector2     (hns) :          0.0         0.0
 Time for VxV         (hns) :          0.0         0.0
           16  Eigenvalues computed 
- Seclr4(Cholesky complete (CPU)) :               0.001     34228.41 Mflops
- Seclr4(Transform to eig.problem (CPU)) :        0.004     31570.65 Mflops
- Seclr4(Compute eigenvalues (CPU)) :             0.016      9096.61 Mflops
- Seclr4(Backtransform (CPU)) :                   0.000      7200.00 Mflops
+ Seclr4(Cholesky complete (CPU)) :               0.001     34484.56 Mflops
+ Seclr4(Transform to eig.problem (CPU)) :        0.004     31507.69 Mflops
+ Seclr4(Compute eigenvalues (CPU)) :             0.015      9723.44 Mflops
+ Seclr4(Backtransform (CPU)) :                   0.000      7876.92 Mflops
        TIME HAMILT (CPU)  =     0.0, HNS =     0.0, HORB =     0.0, DIAG =     0.0, SYNC =     0.0
        TIME HAMILT (WALL) =     0.0, HNS =     0.0, HORB =     0.0, DIAG =     0.0, SYNC =     0.0
 
@@ -365,10 +365,10 @@ Time for vector      (hns) :          0.0         0.0
 Time for vector2     (hns) :          0.0         0.0
 Time for VxV         (hns) :          0.0         0.0
           20  Eigenvalues computed 
- Seclr4(Cholesky complete (CPU)) :               0.001     32069.63 Mflops
- Seclr4(Transform to eig.problem (CPU)) :        0.003     31360.91 Mflops
- Seclr4(Compute eigenvalues (CPU)) :             0.015      9653.61 Mflops
- Seclr4(Backtransform (CPU)) :                   0.000      7215.80 Mflops
+ Seclr4(Cholesky complete (CPU)) :               0.001     32300.14 Mflops
+ Seclr4(Transform to eig.problem (CPU)) :        0.003     30884.93 Mflops
+ Seclr4(Compute eigenvalues (CPU)) :             0.015      9374.20 Mflops
+ Seclr4(Backtransform (CPU)) :                   0.000      6865.94 Mflops
        TIME HAMILT (CPU)  =     0.0, HNS =     0.0, HORB =     0.0, DIAG =     0.0, SYNC =     0.0
        TIME HAMILT (WALL) =     0.0, HNS =     0.0, HORB =     0.0, DIAG =     0.0, SYNC =     0.0
 
@@ -384,7 +384,7 @@ Time for VxV         (hns) :          0.0         0.0
        ********************************************************
 
        NUMBER OF K-POINTS:           3
-   ===> TOTAL CPU       TIME:      0.1 (INIT =      0.0 + K-POINTS =      0.1)
-   > SUM OF WALL CLOCK TIMES:      0.1 (INIT =      0.0 + K-POINTS =      0.1)
-      Maximum WALL clock time:   0.18400000000110595     
-      Maximum CPU time:          0.18389199999999997     
+   ===> TOTAL CPU       TIME:      0.1 (INIT =      0.0 + K-POINTS =      0.0)
+   > SUM OF WALL CLOCK TIMES:      0.1 (INIT =      0.0 + K-POINTS =      0.0)
+      Maximum WALL clock time:   0.17799999999988358     
+      Maximum CPU time:          0.17760599999999999     

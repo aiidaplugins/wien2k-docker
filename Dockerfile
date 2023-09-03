@@ -36,8 +36,8 @@ RUN wget https://www.fftw.org/fftw-3.3.10.tar.gz && \
     tar -zxvf fftw-3.3.10.tar.gz && \
     rm fftw-3.3.10.tar.gz && \
     cd fftw-3.3.10 && \
-    ./configure FCC=gfortran CC=gcc && \
-    make && sudo make install
+    ./configure FCC=gfortran CC=gcc --prefix=/home/aiida/src/fftw-3.3.10 && \
+    make && make install
 
 # WIEN2k compilation
 WORKDIR /home/aiida/src/WIEN2k
