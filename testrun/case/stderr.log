@@ -7,71 +7,74 @@ STOP NN ENDS
 STOP LSTART ENDS
 STOP KGEN ENDS
 STOP KGEN ENDS
-STOP  LAPW0 END
-STOP  LAPW1 END
-STOP  LAPW2 END
-STOP  CORE  END
-STOP  MIXER END
-STOP  LAPW0 END
-STOP  LAPW1 END
-STOP  LAPW2 END
-STOP  CORE  END
-STOP  MIXER END
-STOP  LAPW0 END
-STOP  LAPW1 END
-STOP  LAPW2 END
-STOP  CORE  END
-STOP  MIXER END
-STOP  LAPW0 END
-STOP  LAPW1 END
-STOP  LAPW2 END
-STOP  CORE  END
-STOP  MIXER END
-STOP  LAPW0 END
-STOP  LAPW1 END
-STOP  LAPW2 END
-STOP  CORE  END
-STOP  MIXER END
-STOP  LAPW0 END
-STOP  LAPW1 END
-STOP  LAPW2 END
-STOP  CORE  END
-STOP  MIXER END
+
+Program received signal SIGSEGV: Segmentation fault - invalid memory reference.
+
+Backtrace for this error:
+#0  0x40000509d08b in ???
+#1  0x40000509c047 in ???
+#2  0x400003ca578f in ???
+#3  0x400003f588b0 in ???
+Segmentation fault
+grep: *scf1*: No such file or directory
+grep: lapw2*.error: No such file or directory
+grep: lapw2*.error: No such file or directory
+grep: lapw2*.error: No such file or directory
+grep: lapw2*.error: No such file or directory
+grep: lapw2*.error: No such file or directory
+grep: lapw2*.error: No such file or directory
+grep: lapw1*.error: No such file or directory
+grep: lapw1*.error: No such file or directory
+cp: cannot stat 'case.scfm': No such file or directory
+cp: cannot stat 'case.scf1': No such file or directory
+cp: cannot stat 'case.scfc': No such file or directory
 STOP NN ENDS
 STOP LSTART ENDS
 STOP KGEN ENDS
 STOP KGEN ENDS
-STOP  LAPW0 END
-STOP  LAPW1 END
-STOP  LAPW2 END
-STOP  CORE  END
-STOP  MIXER END
-STOP  LAPW0 END
-STOP  LAPW1 END
-STOP  LAPW2 END
-STOP  CORE  END
-STOP  MIXER END
-STOP  LAPW0 END
-STOP  LAPW1 END
-STOP  LAPW2 END
-STOP  CORE  END
-STOP  MIXER END
+
+Program received signal SIGSEGV: Segmentation fault - invalid memory reference.
+
+Backtrace for this error:
+#0  0x40003321d08b in ???
+#1  0x40003321c047 in ???
+#2  0x400031e2178f in ???
+#3  0x4000320d88b0 in ???
+Segmentation fault
+grep: *scf1*: No such file or directory
+grep: lapw2*.error: No such file or directory
+grep: lapw2*.error: No such file or directory
+grep: lapw2*.error: No such file or directory
+grep: lapw2*.error: No such file or directory
+grep: lapw2*.error: No such file or directory
+grep: lapw2*.error: No such file or directory
+grep: lapw1*.error: No such file or directory
+grep: lapw1*.error: No such file or directory
+cp: cannot stat 'case.scfm': No such file or directory
+cp: cannot stat 'case.scf1': No such file or directory
+cp: cannot stat 'case.scfc': No such file or directory
 STOP NN ENDS
 STOP LSTART ENDS
 STOP KGEN ENDS
 STOP KGEN ENDS
-STOP  LAPW0 END
-STOP  LAPW1 END
-STOP  LAPW2 END
-STOP  CORE  END
-STOP  MIXER END
-STOP  LAPW0 END
-STOP  LAPW1 END
-STOP  LAPW2 END
-STOP  CORE  END
-STOP  MIXER END
-STOP  LAPW0 END
-STOP  LAPW1 END
-STOP  LAPW2 END
-STOP  CORE  END
-STOP  MIXER END
+
+Program received signal SIGSEGV: Segmentation fault - invalid memory reference.
+
+Backtrace for this error:
+#0  0x40004110d08b in ???
+#1  0x40004110c047 in ???
+#2  0x40003fd1f78f in ???
+#3  0x40003ffc88b0 in ???
+Segmentation fault
+grep: *scf1*: No such file or directory
+grep: lapw2*.error: No such file or directory
+grep: lapw2*.error: No such file or directory
+grep: lapw2*.error: No such file or directory
+grep: lapw2*.error: No such file or directory
+grep: lapw2*.error: No such file or directory
+grep: lapw2*.error: No such file or directory
+grep: lapw1*.error: No such file or directory
+grep: lapw1*.error: No such file or directory
+cp: cannot stat 'case.scfm': No such file or directory
+cp: cannot stat 'case.scf1': No such file or directory
+cp: cannot stat 'case.scfc': No such file or directory

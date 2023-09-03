@@ -1,45 +1,14 @@
 
 Calculating case in /home/aiida/testrun/case
-on 71190d454cb1 with PID 3213
+on f7a58a7a989f with PID 1297
 using WIEN2k_23.2 (Release 9/3/2022) in /home/aiida/src/WIEN2k
 
 
-    start 	(Sun Sep  3 07:01:42 UTC 2023) with lapw0 (100/99 to go)
+    start 	(Sun Sep  3 07:27:42 UTC 2023) with lapw0 (100/99 to go)
 
-    cycle 1 	(Sun Sep  3 07:01:42 UTC 2023) 	(100/99 to go)
+    cycle 1 	(Sun Sep  3 07:27:42 UTC 2023) 	(100/99 to go)
 
->   lapw0      	(07:01:42) 21.299u 1.154s 0:22.45 99.9%	0+0k 0+416io 0pf+0w
->   lapw1       	(07:02:05) 0.155u 0.023s 0:00.17 100.0%	0+0k 0+1160io 0pf+0w
->   lapw2         	(07:02:05) 0.156u 0.009s 0:00.16 93.7%	0+0k 0+648io 0pf+0w
->   lcore    	(07:02:05) 0.005u 0.003s 0:00.00 0.0%	0+0k 0+200io 0pf+0w
->   mixer 	(07:02:05) 0.024u 0.003s 0:00.02 100.0%	0+0k 0+760io 0pf+0w
-:ENERGY convergence:  0 0.01 0
-:CHARGE convergence:  0 0.01 0
-:STRESS convergence:  0 0.0 0 YY
-ec cc fc and str_conv 0 0 1 1
+>   lapw0      	(07:27:42) 0.135u 1.543s 0:01.69 98.8%	0+0k 16+24io 0pf+0w
+error: command   /home/aiida/src/WIEN2k/lapw0 lapw0.def   failed
 
-    cycle 2 	(Sun Sep  3 07:02:05 UTC 2023) 	(99/98 to go)
-
->   lapw0      	(07:02:05) 21.240u 0.745s 0:21.98 100.0%	0+0k 0+504io 0pf+0w
->   lapw1       	(07:02:27) 0.152u 0.036s 0:00.18 100.0%	0+0k 0+1160io 0pf+0w
->   lapw2         	(07:02:27) 0.154u 0.011s 0:00.16 100.0%	0+0k 0+648io 0pf+0w
->   lcore    	(07:02:28) 0.005u 0.002s 0:00.00 0.0%	0+0k 0+200io 0pf+0w
->   mixer 	(07:02:28) 0.010u 0.003s 0:00.01 100.0%	0+0k 0+736io 0pf+0w
-:ENERGY convergence:  0 0.01 0
-:CHARGE convergence:  0 0.01 0
-:STRESS convergence:  0 0.0 0 YY
-ec cc fc and str_conv 0 0 1 1
-
-    cycle 3 	(Sun Sep  3 07:02:28 UTC 2023) 	(98/97 to go)
-
->   lapw0      	(07:02:28) 20.685u 0.646s 0:21.33 99.9%	0+0k 0+504io 0pf+0w
->   lapw1       	(07:02:49) 0.154u 0.025s 0:00.18 94.4%	0+0k 0+1160io 0pf+0w
->   lapw2         	(07:02:49) 0.154u 0.013s 0:00.16 100.0%	0+0k 0+648io 0pf+0w
->   lcore    	(07:02:50) 0.006u 0.002s 0:00.00 0.0%	0+0k 0+200io 0pf+0w
->   mixer 	(07:02:50) 0.010u 0.003s 0:00.01 100.0%	0+0k 0+744io 0pf+0w
-:ENERGY convergence:  1 0.01 .0000004000000000
-:CHARGE convergence:  1 0.01 -.0089551
-:STRESS convergence:  0 0.0 0 YY
-ec cc fc and str_conv 1 1 1 1
-
->   stop
+>   stop error

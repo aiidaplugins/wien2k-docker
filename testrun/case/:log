@@ -1,93 +1,36 @@
-Sun Sep  3 07:00:40 UTC 2023> (x) sgroup
+Sun Sep  3 07:27:37 UTC 2023> (x) sgroup
 >   (init) options: -b -prec 2 -numk 0 2 2 2 -nokshift -red 3
-Sun Sep  3 07:00:40 UTC 2023> (x_lapw) nn -f case
-Sun Sep  3 07:00:40 UTC 2023> (x) nn
-Sun Sep  3 07:00:40 UTC 2023> (x) sgroup
-Sun Sep  3 07:00:40 UTC 2023> (x) symmetry
-Sun Sep  3 07:00:40 UTC 2023> (x) lstart -d -hdlo
-Sun Sep  3 07:00:40 UTC 2023> (x_lapw) kgen -d
-Sun Sep  3 07:00:40 UTC 2023> (x) dstart -p
+Sun Sep  3 07:27:37 UTC 2023> (x_lapw) nn -f case
+Sun Sep  3 07:27:38 UTC 2023> (x) nn
+Sun Sep  3 07:27:38 UTC 2023> (x) sgroup
+Sun Sep  3 07:27:38 UTC 2023> (x) symmetry
+Sun Sep  3 07:27:38 UTC 2023> (x) lstart -d -hdlo
+Sun Sep  3 07:27:38 UTC 2023> (x_lapw) kgen -d
+Sun Sep  3 07:27:38 UTC 2023> (x) dstart -p
 >   (init) options: -b -nodstart -prec 1 -numk 0 2 2 2 -nokshift
-Sun Sep  3 07:00:40 UTC 2023> (x) nn
-Sun Sep  3 07:00:40 UTC 2023> (x) sgroup
-Sun Sep  3 07:00:40 UTC 2023> (x) symmetry
-Sun Sep  3 07:00:40 UTC 2023> (x) lstart -d
-Sun Sep  3 07:00:41 UTC 2023> (x_lapw) kgen -d
-Sun Sep  3 07:00:41 UTC 2023> (x) dstart -p -super
+Sun Sep  3 07:27:38 UTC 2023> (x) nn
+Sun Sep  3 07:27:38 UTC 2023> (x) sgroup
+Sun Sep  3 07:27:38 UTC 2023> (x) symmetry
+Sun Sep  3 07:27:38 UTC 2023> (x) lstart -d
+Sun Sep  3 07:27:38 UTC 2023> (x_lapw) kgen -d
+Sun Sep  3 07:27:38 UTC 2023> (x) dstart -p -super
 >   (run_lapw) options: -i 100 -cc 0.01 -ec 0.01
-Sun Sep  3 07:00:41 UTC 2023> (x) lapw0
-Sun Sep  3 07:00:43 UTC 2023> (x) lapw1
-Sun Sep  3 07:00:43 UTC 2023> (x) lapw2
-Sun Sep  3 07:00:43 UTC 2023> (x) lcore
-Sun Sep  3 07:00:43 UTC 2023> (x) mixer
-Sun Sep  3 07:00:43 UTC 2023> (x) lapw0
-Sun Sep  3 07:00:45 UTC 2023> (x) lapw1
-Sun Sep  3 07:00:45 UTC 2023> (x) lapw2
-Sun Sep  3 07:00:46 UTC 2023> (x) lcore
-Sun Sep  3 07:00:46 UTC 2023> (x) mixer
-Sun Sep  3 07:00:46 UTC 2023> (x) lapw0
-Sun Sep  3 07:00:48 UTC 2023> (x) lapw1
-Sun Sep  3 07:00:48 UTC 2023> (x) lapw2
-Sun Sep  3 07:00:49 UTC 2023> (x) lcore
-Sun Sep  3 07:00:49 UTC 2023> (x) mixer
-Sun Sep  3 07:00:49 UTC 2023> (x) lapw0
-Sun Sep  3 07:00:51 UTC 2023> (x) lapw1
-Sun Sep  3 07:00:52 UTC 2023> (x) lapw2
-Sun Sep  3 07:00:52 UTC 2023> (x) lcore
-Sun Sep  3 07:00:52 UTC 2023> (x) mixer
-Sun Sep  3 07:00:52 UTC 2023> (x) lapw0
-Sun Sep  3 07:00:54 UTC 2023> (x) lapw1
-Sun Sep  3 07:00:54 UTC 2023> (x) lapw2
-Sun Sep  3 07:00:54 UTC 2023> (x) lcore
-Sun Sep  3 07:00:54 UTC 2023> (x) mixer
-Sun Sep  3 07:00:55 UTC 2023> (x) lapw0
-Sun Sep  3 07:00:57 UTC 2023> (x) lapw1
-Sun Sep  3 07:00:57 UTC 2023> (x) lapw2
-Sun Sep  3 07:00:57 UTC 2023> (x) lcore
-Sun Sep  3 07:00:57 UTC 2023> (x) mixer
+Sun Sep  3 07:27:39 UTC 2023> (x) lapw0
 >   (init) options: -b -nodstart -prec 2 -numk 0 2 2 2 -nokshift
-Sun Sep  3 07:00:58 UTC 2023> (x) nn
-Sun Sep  3 07:00:58 UTC 2023> (x) sgroup
-Sun Sep  3 07:00:58 UTC 2023> (x) symmetry
-Sun Sep  3 07:00:58 UTC 2023> (x) lstart -d -hdlo
-Sun Sep  3 07:00:58 UTC 2023> (x_lapw) kgen -d
-Sun Sep  3 07:00:59 UTC 2023> (x) dstart -p -super
+Sun Sep  3 07:27:39 UTC 2023> (x) nn
+Sun Sep  3 07:27:39 UTC 2023> (x) sgroup
+Sun Sep  3 07:27:39 UTC 2023> (x) symmetry
+Sun Sep  3 07:27:39 UTC 2023> (x) lstart -d -hdlo
+Sun Sep  3 07:27:39 UTC 2023> (x_lapw) kgen -d
+Sun Sep  3 07:27:39 UTC 2023> (x) dstart -p -super
 >   (run_lapw) options: -i 100 -cc 0.01 -ec 0.01
-Sun Sep  3 07:00:59 UTC 2023> (x) lapw0
-Sun Sep  3 07:01:17 UTC 2023> (x) lapw1
-Sun Sep  3 07:01:17 UTC 2023> (x) lapw2
-Sun Sep  3 07:01:17 UTC 2023> (x) lcore
-Sun Sep  3 07:01:17 UTC 2023> (x) mixer
-Sun Sep  3 07:01:17 UTC 2023> (x) lapw0
-Sun Sep  3 07:01:29 UTC 2023> (x) lapw1
-Sun Sep  3 07:01:29 UTC 2023> (x) lapw2
-Sun Sep  3 07:01:30 UTC 2023> (x) lcore
-Sun Sep  3 07:01:30 UTC 2023> (x) mixer
-Sun Sep  3 07:01:30 UTC 2023> (x) lapw0
-Sun Sep  3 07:01:41 UTC 2023> (x) lapw1
-Sun Sep  3 07:01:41 UTC 2023> (x) lapw2
-Sun Sep  3 07:01:41 UTC 2023> (x) lcore
-Sun Sep  3 07:01:41 UTC 2023> (x) mixer
+Sun Sep  3 07:27:40 UTC 2023> (x) lapw0
 >   (init) options: -b -nodstart -prec 3 -numk 0 2 2 2 -nokshift
-Sun Sep  3 07:01:42 UTC 2023> (x) nn
-Sun Sep  3 07:01:42 UTC 2023> (x) sgroup
-Sun Sep  3 07:01:42 UTC 2023> (x) symmetry
-Sun Sep  3 07:01:42 UTC 2023> (x) lstart -d -hdlo
-Sun Sep  3 07:01:42 UTC 2023> (x_lapw) kgen -d
-Sun Sep  3 07:01:42 UTC 2023> (x) dstart -p -super
+Sun Sep  3 07:27:41 UTC 2023> (x) nn
+Sun Sep  3 07:27:41 UTC 2023> (x) sgroup
+Sun Sep  3 07:27:41 UTC 2023> (x) symmetry
+Sun Sep  3 07:27:41 UTC 2023> (x) lstart -d -hdlo
+Sun Sep  3 07:27:41 UTC 2023> (x_lapw) kgen -d
+Sun Sep  3 07:27:41 UTC 2023> (x) dstart -p -super
 >   (run_lapw) options: -i 100 -cc 0.01 -ec 0.01
-Sun Sep  3 07:01:42 UTC 2023> (x) lapw0
-Sun Sep  3 07:02:05 UTC 2023> (x) lapw1
-Sun Sep  3 07:02:05 UTC 2023> (x) lapw2
-Sun Sep  3 07:02:05 UTC 2023> (x) lcore
-Sun Sep  3 07:02:05 UTC 2023> (x) mixer
-Sun Sep  3 07:02:05 UTC 2023> (x) lapw0
-Sun Sep  3 07:02:27 UTC 2023> (x) lapw1
-Sun Sep  3 07:02:27 UTC 2023> (x) lapw2
-Sun Sep  3 07:02:28 UTC 2023> (x) lcore
-Sun Sep  3 07:02:28 UTC 2023> (x) mixer
-Sun Sep  3 07:02:28 UTC 2023> (x) lapw0
-Sun Sep  3 07:02:49 UTC 2023> (x) lapw1
-Sun Sep  3 07:02:49 UTC 2023> (x) lapw2
-Sun Sep  3 07:02:50 UTC 2023> (x) lcore
-Sun Sep  3 07:02:50 UTC 2023> (x) mixer
+Sun Sep  3 07:27:42 UTC 2023> (x) lapw0

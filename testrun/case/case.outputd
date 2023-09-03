@@ -57,10 +57,10 @@ Calculated number of neighbours, nneig =   123
 :NTO001: CHARGE SPHERE  1    =    12.137157
 
 
-cpu  time in make_spheres:      0.10
+cpu  time in make_spheres:      0.11
 
 
-wall time in make_spheres:      0.10
+wall time in make_spheres:      0.11
 
 
 
@@ -85,7 +85,7 @@ wall time in make_spheres:      0.10
 
 
 : NT   : INTERSTITIAL CHARGE =     3.735401
-cpu  time in interstitial (total):      0.15
-wall time in interstitial (total):      0.15
-cpu  time in dstart:      0.25
-wall time in dstart:      0.25
+cpu  time in interstitial (total):      0.16
+wall time in interstitial (total):      0.16
+cpu  time in dstart:      0.28
+wall time in dstart:      0.29
