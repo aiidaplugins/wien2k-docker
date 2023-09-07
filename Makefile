@@ -2,8 +2,8 @@ WIEN2K_SOURCE ?= WIEN2k_23.2.tar
 
 wien2k:
 	cp $(WIEN2K_SOURCE) stack/wien2k
-	@source_file=`basename "$$WIEN2K_SOURCE"` ;\
-	docker build -t wien2k stack/wien2k --build-arg WIEN2K_SOURCE=$$source_file ;\
+	@source_file=`basename ${WIEN2K_SOURCE}` &&\
+	docker build -t wien2k stack/wien2k --build-arg WIEN2K_SOURCE=$$source_file &&\
 	rm stack/wien2k/$$source_file
 
 aiida: wien2k
